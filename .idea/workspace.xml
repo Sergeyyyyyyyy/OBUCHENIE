@@ -2,85 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca4c9df9-9464-4d4c-90f9-9be2ff2d84c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon New/Dragon New.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon New/src/StartDragon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon New/src/interfaced/Dragon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon New/src/interfaced/FireBreathing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon New/src/interfaced/FirebreathingDragon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon New/src/interfaced/Flying.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon New/src/interfaced/FlyingDragon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon/Dragon.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon/src/Dragon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon/src/DragonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon/src/FlyingDragon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon3/Dragon3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon3/src/Dragon3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon3/src/FireBreathable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon3/src/FirebreathingDragon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon3/src/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon3/src/FlyablePlus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon3/src/FlyingDragon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon3/src/FlyingDragonPlus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon3/src/RemoveHeads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon3/src/Sides.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon3/src/Testclass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/EduTools.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/Edu-Android.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/Edu-Cpp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/Edu-Java.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/Edu-JavaScript.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/Edu-Kotlin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/Edu-Python.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/Edu-Rust.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/Edu-Scala.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/converter-gson-2.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/converter-jackson-2.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/educational-core.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/educational-plugin-2.6-2019.2-1789.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/gson-2.8.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/jackson-core-2.9.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/jackson-databind-2.9.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/jackson-dataformat-yaml-2.9.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/jackson-module-kotlin-2.9.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/jsoup-1.11.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/jvm-core.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/kotlin-css-1.0.0-pre.58-kotlin-1.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/kotlin-css-jvm-1.0.0-pre.58-kotlin-1.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/logging-interceptor-3.13.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/markdown-0.1.28.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/okhttp-3.13.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/okio-1.17.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/retrofit-2.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/searchableOptions-2.6-2019.2-1789.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/snakeyaml-1.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EduTools/lib/twitter4j-core-4.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Foto1/Foto1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Foto1/src/Fotografii1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Foto2/Foto2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Foto2/src/Foto2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Foto4/Foto4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Foto4/src/Foto4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HPravilnyiVybor/HPravilnyiVybor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HPravilnyiVybor/src/HPravilnyiV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OBUCHENIE.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Perevod/Perevod.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Perevod/src/Foto4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RacPodhod/RacPodhod.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session/Session.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session/src/Session.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zadachaprotramvai/Zadachaprotramvai.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zadachaprotramvai/src/Tram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zadachaslova/Zadachaslova.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zadachaslova/src/Slova.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A22A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tramvaiiiii.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -162,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dragon3/src/FlyingDragonPlus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            <state relative-caret-position="221">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#319#320#0" expanded="true" />
                 <element signature="e#359#360#0" expanded="true" />
@@ -405,6 +327,14 @@
       <option name="presentableId" value="Default" />
       <updated>1556875973231</updated>
     </task>
+    <task id="LOCAL-00001" summary="Первая заливка на гитхаб.&#10;Программа Dragon работает">
+      <created>1559415463654</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559415463654</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -420,7 +350,7 @@
     <frame x="479" y="0" width="808" height="991" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3395722" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3395722" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -434,7 +364,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298731" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32983682" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32983682" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.16666667" />
@@ -448,6 +378,10 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Первая заливка на гитхаб.&#10;Программа Dragon работает" />
+    <option name="LAST_COMMIT_MESSAGE" value="Первая заливка на гитхаб.&#10;Программа Dragon работает" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -816,9 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="e#945#946#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -848,8 +779,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dragon3/src/FlyingDragonPlus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        <state relative-caret-position="221">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#319#320#0" expanded="true" />
             <element signature="e#359#360#0" expanded="true" />
