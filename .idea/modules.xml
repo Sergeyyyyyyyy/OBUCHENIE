@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Dragon/Dragon.iml" filepath="$PROJECT_DIR$/Dragon/Dragon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dragon New/Dragon New.iml" filepath="$PROJECT_DIR$/Dragon New/Dragon New.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dragon3/Dragon3.iml" filepath="$PROJECT_DIR$/Dragon3/Dragon3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DragonNew/DragonNew.iml" filepath="$PROJECT_DIR$/DragonNew/DragonNew.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EduTools/EduTools.iml" filepath="$PROJECT_DIR$/EduTools/EduTools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Foto1/Foto1.iml" filepath="$PROJECT_DIR$/Foto1/Foto1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Foto2/Foto2.iml" filepath="$PROJECT_DIR$/Foto2/Foto2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Foto4/Foto4.iml" filepath="$PROJECT_DIR$/Foto4/Foto4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HPravilnyiVybor/HPravilnyiVybor.iml" filepath="$PROJECT_DIR$/HPravilnyiVybor/HPravilnyiVybor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OBUCHENIE.iml" filepath="$PROJECT_DIR$/OBUCHENIE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Perevod/Perevod.iml" filepath="$PROJECT_DIR$/Perevod/Perevod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RacPodhod/RacPodhod.iml" filepath="$PROJECT_DIR$/RacPodhod/RacPodhod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Session/Session.iml" filepath="$PROJECT_DIR$/Session/Session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadachaprotramvai/Zadachaprotramvai.iml" filepath="$PROJECT_DIR$/Zadachaprotramvai/Zadachaprotramvai.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadachaslova/Zadachaslova.iml" filepath="$PROJECT_DIR$/Zadachaslova/Zadachaslova.iml" />
+    </modules>
+  </component>
+</project>
