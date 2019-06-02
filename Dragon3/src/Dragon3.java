@@ -63,4 +63,11 @@ public class Dragon3 {
     public static int getNumberOfDragons() {
         return numberOfDragons;
     }
+    public void removedHead(int heads) {
+        remove ();
+    }
+
+    private void remove() {
+    }
+
 }
