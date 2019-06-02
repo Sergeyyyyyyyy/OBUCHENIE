@@ -1,4 +1,4 @@
-public interface RemoveHeads {
+public interface RegenerationRule {
     /*
     Вариант№1
     добавить интерфейс с добвавлением удаления и регенерации голов
@@ -16,3 +16,4 @@ public interface RemoveHeads {
 
 
 }
+
