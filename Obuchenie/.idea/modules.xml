@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Dragon New/Dragon New.iml" filepath="$PROJECT_DIR$/Dragon New/Dragon New.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lekcii/Lekcii.iml" filepath="$PROJECT_DIR$/Lekcii/Lekcii.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Obuchenie.iml" filepath="$PROJECT_DIR$/Obuchenie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Racreshenie/Racreshenie.iml" filepath="$PROJECT_DIR$/Racreshenie/Racreshenie.iml" />
+    </modules>
+  </component>
+</project>

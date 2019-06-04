@@ -2,20 +2,38 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/ArrayList/ArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dog/Dog.iml" filepath="$PROJECT_DIR$/Dog/Dog.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dragon/Dragon.iml" filepath="$PROJECT_DIR$/Dragon/Dragon.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dragon New/Dragon New.iml" filepath="$PROJECT_DIR$/Dragon New/Dragon New.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Obuchenie/Dragon New/Dragon New1.iml" filepath="$PROJECT_DIR$/Obuchenie/Dragon New/Dragon New1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dragon3/Dragon3.iml" filepath="$PROJECT_DIR$/Dragon3/Dragon3.iml" />
       <module fileurl="file://$PROJECT_DIR$/DragonNew/DragonNew.iml" filepath="$PROJECT_DIR$/DragonNew/DragonNew.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EduTools/EduTools.iml" filepath="$PROJECT_DIR$/EduTools/EduTools.iml" />
       <module fileurl="file://$PROJECT_DIR$/Foto1/Foto1.iml" filepath="$PROJECT_DIR$/Foto1/Foto1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Foto2/Foto2.iml" filepath="$PROJECT_DIR$/Foto2/Foto2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Foto4/Foto4.iml" filepath="$PROJECT_DIR$/Foto4/Foto4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Grafika/Grafika.iml" filepath="$PROJECT_DIR$/Grafika/Grafika.iml" />
       <module fileurl="file://$PROJECT_DIR$/HPravilnyiVybor/HPravilnyiVybor.iml" filepath="$PROJECT_DIR$/HPravilnyiVybor/HPravilnyiVybor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InnerButton/InnerButton.iml" filepath="$PROJECT_DIR$/InnerButton/InnerButton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Obuchenie/Lekcii/Lekcii.iml" filepath="$PROJECT_DIR$/Obuchenie/Lekcii/Lekcii.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Metodequals/Metodequals.iml" filepath="$PROJECT_DIR$/Metodequals/Metodequals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Monstre/Monstre.iml" filepath="$PROJECT_DIR$/Monstre/Monstre.iml" />
       <module fileurl="file://$PROJECT_DIR$/OBUCHENIE.iml" filepath="$PROJECT_DIR$/OBUCHENIE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Obuchenie/Obuchenie.iml" filepath="$PROJECT_DIR$/Obuchenie/Obuchenie.iml" />
       <module fileurl="file://$PROJECT_DIR$/Perevod/Perevod.iml" filepath="$PROJECT_DIR$/Perevod/Perevod.iml" />
       <module fileurl="file://$PROJECT_DIR$/RacPodhod/RacPodhod.iml" filepath="$PROJECT_DIR$/RacPodhod/RacPodhod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Obuchenie/Racreshenie/Racreshenie.iml" filepath="$PROJECT_DIR$/Obuchenie/Racreshenie/Racreshenie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seabattle/Seabattle.iml" filepath="$PROJECT_DIR$/Seabattle/Seabattle.iml" />
       <module fileurl="file://$PROJECT_DIR$/Session/Session.iml" filepath="$PROJECT_DIR$/Session/Session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sintezator/Sintezator.iml" filepath="$PROJECT_DIR$/Sintezator/Sintezator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Virtmachine/Virtmachine.iml" filepath="$PROJECT_DIR$/Virtmachine/Virtmachine.iml" />
       <module fileurl="file://$PROJECT_DIR$/Zadachaprotramvai/Zadachaprotramvai.iml" filepath="$PROJECT_DIR$/Zadachaprotramvai/Zadachaprotramvai.iml" />
       <module fileurl="file://$PROJECT_DIR$/Zadachaslova/Zadachaslova.iml" filepath="$PROJECT_DIR$/Zadachaslova/Zadachaslova.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadachiizkypca/Zadachiizkypca.iml" filepath="$PROJECT_DIR$/Zadachiizkypca/Zadachiizkypca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson/lesson.iml" filepath="$PROJECT_DIR$/lesson/lesson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Пример/Пример.iml" filepath="$PROJECT_DIR$/Пример/Пример.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ПримерОт17.04.2019/ПримерОт17.04.2019.iml" filepath="$PROJECT_DIR$/ПримерОт17.04.2019/ПримерОт17.04.2019.iml" />
     </modules>
   </component>
 </project>
