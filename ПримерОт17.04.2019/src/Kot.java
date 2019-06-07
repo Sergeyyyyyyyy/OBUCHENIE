@@ -1,9 +1,10 @@
 mport java.awt.Graphics;
+import javax.swing.*;
 import java.awt.*;
 
 public class KOT {
     public void paintComponent(Graphics g) {
-        JFrame frame = new JFrame();
+        JFrame frame = new JFrame ();
         frame.getContentPane().add(button);
         frame.setSize(300,300) ;
         frame.setVisible(true);

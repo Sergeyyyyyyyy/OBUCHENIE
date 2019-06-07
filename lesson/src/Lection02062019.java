@@ -1,5 +1,5 @@
 /*
-Лекция от02.05.2019
+Лекция от 02.06.2019
         ---------------------
 */
 
@@ -28,7 +28,7 @@ class CmpT implements Comparator<Triplet> {
     }
 }
 
-public class Lection {
+public class Lection02062019 {
     public static void main(String[] args) {
         TreeSet<Triplet> tt1 = new TreeSet<Triplet>(new CmpT());
         TreeSet<Triplet> tt2 = new TreeSet<Triplet>(new Comparator<Triplet>() {
