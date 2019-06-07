@@ -1,18 +1,19 @@
 public class SomeClass {
     public static void main(String[] args) {
         SomeClass t = new SomeClass();
-        t.check("YES",5);
+        t.test();
     }
-    private int check(String x, int n) {
-        if (n == 0) return n;
-        else if (n == 1) {
-            if (x != null) return 5;
-        } else if (n == 2 && x != null) {
-            if (x.equals("YES")) return 3;
-            else if (x.equals("NO")) return 4;
+    void test() {
+        Test:{
+            test: for (int i = 0; true; i++) {
+                if (i % 2 == 0) continue test;
+                if (i > 10) break Test;
+                System.out.print(i);
+            }
         }
-        return -1;
     }
 }
+
+
 
 

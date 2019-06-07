@@ -1,11 +1,14 @@
-public class FlyingDragon4 extends Dragon4 implements Flyable,FireBreathable{
+import java.util.function.Predicate;
+
+public class FlyingDragon4 extends Dragon4 implements Flyable {
 
     private int wings;
 
-    @Override
     public void setHead(int index, double fp, int rt) {
 
     }
+
+    public Predicate<Integer> test = (Integer t) -> t % 2 == 0;
 
     public FlyingDragon4() {
         super ();

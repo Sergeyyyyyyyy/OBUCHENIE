@@ -1,3 +1,5 @@
+import java.util.function.Predicate;
+
 public class FlyingDragon4Plus extends FlyingDragon4 implements FlyablePlus {
 
     FDwing left = new FDwing(Sides.LEFT, 1);
@@ -13,8 +15,8 @@ public class FlyingDragon4Plus extends FlyingDragon4 implements FlyablePlus {
            right.razmah = razmah;
     }
 
+    public Predicate<Integer> test = (Integer t) -> getWings () % 2 == 0;
 
-    @Override
     public void setWings() {
 
     }

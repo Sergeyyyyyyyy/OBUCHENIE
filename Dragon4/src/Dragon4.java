@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.function.Predicate.*;
 import java.util.function.Consumer.*;
 import java.util.function.Supplier.*;
@@ -5,11 +6,12 @@ import java.util.function.*;
 import java.util.function.UnaryOperator.*;
 import java.util.function.BinaryOperator.*;
 
-public class Dragon4 implements Predicate {
+public class Dragon4 {
 
     public static void main(String... args) {
 
     }
+
     protected int heads;
     protected String name;
     protected double powerPerHead;
@@ -70,8 +72,17 @@ public class Dragon4 implements Predicate {
     public static int getNumberOfDragons() {
         return numberOfDragons;
     }
+
+    private void addRandomHeads(int maxHeads) {
+        Random rnd = new Random (  );
+        this.heads += rnd.nextInt(maxHeads);
+    }
+
     public void removedHead(int heads) {
-        remove ();
+        if (this.heads > heads) {
+            this.heads -= heads;
+            this.addRandomHeads ( 3 );
+        }
     }
 
     private void remove() {

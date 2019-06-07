@@ -2,6 +2,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
+import java.util.function.Consumer;
+import java.util.function.Supplier;
 
 public class FirebreathingDragon4 extends Dragon4 implements Flyable, FireBreathable {
 
@@ -36,6 +38,8 @@ public class FirebreathingDragon4 extends Dragon4 implements Flyable, FireBreath
             firePower = fp;
         }
 
+        public Consumer<Double> setFirePowerConsumer = (Double fp) -> firePower = fp;
+
         int getRechargeTime() {
             return rechargeTime;
         }
@@ -43,9 +47,29 @@ public class FirebreathingDragon4 extends Dragon4 implements Flyable, FireBreath
         void setRechargeTime(int rt) {
             rechargeTime = rt;
         }
+
+        public Consumer <Integer> setrechargeTime2 = (Integer rt) ->  rechargeTime = rt;
     }
 
+
+
     private ArrayList<FBHead> fbheads;
+
+    public Supplier<Double> middlePowerPerHeadSupplier = () -> {
+        if (fbheads != null && fbheads.size () > 0) {
+           return fbheads.stream ().mapToDouble (FBHead::getFirePower)
+                    .average ().orElse ( 0 );
+        }
+        return null;
+    };
+
+    public Supplier<Double> fullPowerAllHeadSupplier = () -> {
+        if (fbheads != null && fbheads.size () > 0) {
+            return fbheads.stream ().mapToDouble (FBHead::getFirePower)
+                    .sum ();
+        }
+        return null;
+    };
 
     private class FBIterator implements Iterator<FBHead> {
 
@@ -117,6 +141,8 @@ public class FirebreathingDragon4 extends Dragon4 implements Flyable, FireBreath
         return getFullPower() / getHeads();
     }
 
+
+
     public double getFullPower() {
         double fullp = 0;
         for (FBHead fbh : fbheads) {
@@ -125,13 +151,16 @@ public class FirebreathingDragon4 extends Dragon4 implements Flyable, FireBreath
         return fullp;
     }
 
+
+
     public FBHead getHead(int index) {
         return fbheads.get(index);
     }
 
     public void setHead(int index, double fp, int rt) {
-        fbheads.get(index).setFirePower(fp);
-        fbheads.get(index).setRechargeTime(rt);
+        fbheads.get(index).setFirePowerConsumer.accept (fp);
+        fbheads.get(index).setrechargeTime2.accept ( rt );
+
     }
 
     public void printActiveHeads() {

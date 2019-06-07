@@ -14,7 +14,6 @@ public class FlyingDragonPlus extends FlyingDragon implements FlyablePlus {
     }
 
 
-    @Override
     public void setWings() {
 
     }
