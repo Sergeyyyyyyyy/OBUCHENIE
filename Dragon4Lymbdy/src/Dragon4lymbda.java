@@ -12,8 +12,8 @@ import java.util.function.BinaryOperator;
 
 public class Dragon4lymbda<localheads> {
     private static int count;
-    private String name;
-    private double powerPerHead;
+    protected String name;
+    protected double powerPerHead;
 
     public Dragon4lymbda(int heads, String name, double pph) {
         this.heads = heads;
@@ -22,6 +22,7 @@ public class Dragon4lymbda<localheads> {
         count++;
     }
 
+
     public Dragon4lymbda() {
         heads = 3;
         name = "Goryynych";
@@ -29,20 +30,11 @@ public class Dragon4lymbda<localheads> {
         count++;
     }
 
-    private List<FirebreathingDragon4LymbdaLymbda.FBHead> heads;
-
-    public Supplier<Double> middlePowerPerHeadSupplier = () -> {
-        if (heads != null && heads.size() > 0) {
-            return heads.stream().mapToDouble(FirebreathingDragon4LymbdaLymbda.FBHead::getFirePower)
-                    .average().orElse(0);
-        }
-        return null;
-    };
+    protected int heads;
 
 
-        public List<FirebreathingDragon4LymbdaLymbda.FBHead> localheads = new List<FirebreathingDragon4LymbdaLymbda.FBHead>
-        return localheads;
-    }
+
+
 
 
     public double getPowerPerHead() {
@@ -53,7 +45,7 @@ public class Dragon4lymbda<localheads> {
         this.powerPerHead = powerPerHead;
     }
 
-    public List heads() {
+    public int getHeads() {
         return heads;
     }
 
@@ -82,17 +74,20 @@ public class Dragon4lymbda<localheads> {
         return count;
     }
 
+    private BinaryOperator<Integer> addHeads = (Integer prevHeads, Integer newHeads) -> prevHeads + newHeads;
+
     private void addRandomHeads(int maxHeads) {
-        Random rnd = new Random();
-        this.heads += rnd.nextInt(maxHeads);
+        Random rnd = new Random ();
+        this.addHeads.apply ( this.heads,  rnd.nextInt ( maxHeads ));
+        this.heads += rnd.nextInt ( maxHeads );
     }
 
     public void removedHead(int heads) {
         if (this.heads > heads) {
             this.heads -= heads;
-            this.addRandomHeads(3);
+            this.addRandomHeads ( 3 );
         }
-        heads
+
 
     }
 

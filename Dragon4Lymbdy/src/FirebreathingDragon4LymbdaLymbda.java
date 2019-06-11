@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
@@ -51,8 +48,6 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
         public Consumer <Integer> setrechargeTime2 = (Integer rt) ->  rechargeTime = rt;
     }
 
-
-
     private ArrayList<FBHead> fbheads;
 
     public Supplier<Double> middlePowerPerHeadSupplier = () -> {
@@ -77,6 +72,10 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
 
         public boolean hasNext() {
             return (nextIndex < getHeads() - 1 && fbheads.get(nextIndex).firePower > 0);
+        }
+
+        private int getHeads() {
+            return 0;
         }
 
         public FBHead next() {
@@ -129,7 +128,7 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
 
 
     public FirebreathingDragon4LymbdaLymbda(String name, int heads) {
-        super(name, heads, 0);
+        super(heads, name, 0);
         fbheads = new ArrayList<FBHead>(heads);
         Random rnd = new Random();
         for (int i = 0; i < heads; i++) {
@@ -151,8 +150,6 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
         return fullp;
     }
 
-
-
     public FBHead getHead(int index) {
         return fbheads.get(index);
     }
@@ -163,13 +160,42 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
 
     }
 
+    public int getFbHeadsCount() {
+        return fbheads != null ? fbheads.size () : 0;
+    }
+
     public void printActiveHeads() {
         Iterator<FBHead> iterator = new FBIterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
-        System.out.println(String.format("Имя: %s\nГоловы: %s\nМощность на голову: %s\nПорядковый номер: %s",
-                name, heads, powerPerHead, numberOfDragons));
+        System.out.println(String.format("Имя: %s\nГоловы: %s\nМощность на голову: %s",
+                name, heads, powerPerHead));
 
+    }
+
+    private Function<Integer, List<FBHead>> addRandomFbHeads = (Integer maxKolHeads) -> {
+        Random rnd = new Random();
+        int kolHeads = rnd.nextInt ( maxKolHeads );
+        if (kolHeads > 0) {
+            List<FBHead> newHeads = new ArrayList<> ( kolHeads );
+            while (newHeads.size () < kolHeads) {
+                newHeads.add ( new FBHead(rnd.nextDouble() * 10,
+                        rnd.nextInt(100) + 1));
+            }
+            return newHeads;
+        }
+        return Collections.emptyList ();
+    };
+
+    public void removeHead() {
+        if (fbheads == null || fbheads.size () == 0) {
+            return;
+        }
+
+        Random rnd = new Random();
+        int removeHeadIndex = rnd.nextInt ( fbheads.size () );
+        fbheads.remove ( removeHeadIndex );
+        fbheads.addAll ( removeHeadIndex, this.addRandomFbHeads.apply ( 10 ) );
     }
 }
