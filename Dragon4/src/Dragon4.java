@@ -85,7 +85,6 @@ public class Dragon4 {
         }
     }
 
-    private void remove() {
-    }
+
 
 }

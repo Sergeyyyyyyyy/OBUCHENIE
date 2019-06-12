@@ -10,15 +10,15 @@ public class Testclass4 {
         FirebreathingDragon4LymbdaLymbda drag2 = new FirebreathingDragon4LymbdaLymbda(55,77);
         drag2.setHead(0, 20, 75);
 
-        FirebreathingDragon4LymbdaLymbda drag3 = new FirebreathingDragon4LymbdaLymbda();
+        FirebreathingDragon4LymbdaLymbda drag3 = new FirebreathingDragon4LymbdaLymbda("Fire1", 3);
         drag3.setHead(0, 56, 15);
-        System.out.println ( "Четное кол-во крыльев: " + drag3.test.test ( drag3.getWings () ));
 
-        FirebreathingDragon4LymbdaLymbda drag4 = new FirebreathingDragon4LymbdaLymbda();
+        FirebreathingDragon4LymbdaLymbda drag4 = new FirebreathingDragon4LymbdaLymbda("Fire2", 5);
         drag4.setHead(0, 87, 23);
-        drag4.heads = 5;
-        drag4.removedHead ( 1 );
-        System.out.println ( "Стало голов: " + drag4.getHeads () );
+        System.out.println (String.format ( "У дракона '%s' было голов: %d", drag4.name, drag4.getFbHeadsCount () ) );
+        drag4.removeHead ();
+        System.out.println (String.format ( "У дракона '%s' стало голов: %d", drag4.name, drag4.getFbHeadsCount () ) );
+
 
         List<FirebreathingDragon4LymbdaLymbda> drags11 = new ArrayList<FirebreathingDragon4LymbdaLymbda>();
         drags11.add(drag1);

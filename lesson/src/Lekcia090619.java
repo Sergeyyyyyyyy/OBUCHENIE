@@ -3,7 +3,7 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Test {
+class Test {
     public static void main(String[] args) {
         String[] arrs = {"ab", "cde", "xyz", "ab", "fgh", "cde", "bl"};
         Stream<String> st1 = Arrays.stream(arrs);
