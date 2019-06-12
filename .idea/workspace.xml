@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26779cb0-a2c0-425a-8097-025b93ca8674" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dragon4Lymbdy/src/FireBreathable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon4Lymbdy/src/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon4Lymbdy/src/FlyablePlus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon4Lymbdy/src/RegenerationRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dragon4Lymbdy/src/Testclass4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/OBUCHENIE.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="26779cb0-a2c0-425a-8097-025b93ca8674" name="Default Changelist" comment="Решение 5,6,7  задач от 11.06.2019 в Dragon4lymbda">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dragon3/Dragon3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dragon3/Dragon3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dragon4Lymbdy/src/Dragon4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dragon4Lymbdy/src/Dragon4lymbda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dragon4Lymbdy/src/Dragon4lymbda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dragon4Lymbdy/src/Dragon4lymbda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,19 +22,34 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/Dragon4lymbda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="323">
+              <caret line="108" column="5" lean-forward="true" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1199#1240#0" expanded="true" />
-                <element signature="e#1352#1353#0" expanded="true" />
-                <element signature="e#1447#1448#0" expanded="true" />
-                <element signature="e#1502#1503#0" expanded="true" />
-                <element signature="e#1560#1561#0" expanded="true" />
-                <element signature="e#1632#1633#0" expanded="true" />
-                <element signature="e#1711#1712#0" expanded="true" />
-                <element signature="e#1781#1782#0" expanded="true" />
-                <element signature="e#1994#1995#0" expanded="true" />
+                <element signature="e#1724#1725#0" expanded="true" />
+                <element signature="e#1759#1760#0" expanded="true" />
+                <element signature="e#1806#1807#0" expanded="true" />
+                <element signature="e#1854#1855#0" expanded="true" />
+                <element signature="e#1880#1881#0" expanded="true" />
+                <element signature="e#1908#1909#0" expanded="true" />
+                <element signature="e#1939#1940#0" expanded="true" />
+                <element signature="e#1966#1967#0" expanded="true" />
+                <element signature="e#2006#2007#0" expanded="true" />
+                <element signature="e#2038#2039#0" expanded="true" />
+                <element signature="e#2108#2109#0" expanded="true" />
+                <element signature="e#2159#2160#0" expanded="true" />
+                <element signature="e#2372#2373#0" expanded="true" />
+                <element signature="e#2400#2401#0" expanded="true" />
+                <element signature="e#3219#3220#0" expanded="true" />
+                <element signature="e#3293#3294#0" expanded="true" />
+                <element signature="e#3326#3327#0" expanded="true" />
+                <element signature="e#3366#3367#0" expanded="true" />
+                <element signature="e#3406#3407#0" expanded="true" />
+                <element signature="e#3444#3445#0" expanded="true" />
+                <element signature="e#3564#3565#0" expanded="true" />
+                <element signature="e#3607#3608#0" expanded="true" />
+                <element signature="e#3647#3648#0" expanded="true" />
+                <element signature="e#3688#3689#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,8 +58,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="60" column="33" lean-forward="true" selection-start-line="55" selection-start-column="3" selection-end-line="63" selection-end-column="6" />
+            <state relative-caret-position="153">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,9 +70,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/Testclass4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            <state relative-caret-position="-1">
+              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#818#846#0" expanded="true" />
                 <element signature="e#1173#1201#0" expanded="true" />
               </folding>
@@ -79,6 +87,8 @@
     <findStrings>
       <find>Fi</find>
       <find>FirebreathingDragon4</find>
+      <find>heads</find>
+      <find>count</find>
     </findStrings>
     <replaceStrings>
       <replace>FirebreathingDragon4lymbda</replace>
@@ -86,6 +96,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -93,11 +106,12 @@
         <option value="$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4lymbda.java" />
         <option value="$PROJECT_DIR$/Dragon4Lymbdy/src/Testclass4.java" />
         <option value="$PROJECT_DIR$/Dragon4Lymbdy/src/Dragon4.java" />
+        <option value="$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java" />
         <option value="$PROJECT_DIR$/Dragon4Lymbdy/src/Dragon4lymbda.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="395" />
     <option name="width" value="892" />
     <option name="height" value="991" />
@@ -117,29 +131,6 @@
             <path>
               <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
               <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Dragon4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Dragon4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Dragon4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Testclass4" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
               <item name="Dragon4Lymbdy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -147,27 +138,6 @@
               <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
               <item name="Dragon4Lymbdy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Dragon4Lymbdy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Dragon4lymbda" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Dragon4Lymbdy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Function" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Dragon4Lymbdy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Testclass4" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
@@ -183,6 +153,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="Dragon4lymbda" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -213,19 +186,34 @@
       <option name="presentableId" value="Default" />
       <updated>1560188627914</updated>
     </task>
+    <task id="LOCAL-00001" summary="Решение 5,6,7  задач от 11.06.2019 в Dragon4lymbda">
+      <created>1560222503802</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560222503802</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Решение 5,6,7  задач от 11.06.2019 в Dragon4lymbda">
+      <created>1560223593953</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560223593953</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="395" y="0" width="892" height="991" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25485438" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26201922" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.17301038" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Version Control" weight="0.37831604" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.14801864" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -234,12 +222,12 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Maven" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,6 +255,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Решение 5,6,7  задач от 11.06.2019 в Dragon4lymbda" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решение 5,6,7  задач от 11.06.2019 в Dragon4lymbda" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/libraries/lib.xml">
@@ -358,9 +354,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/Testclass4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        <state relative-caret-position="-1">
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#818#846#0" expanded="true" />
             <element signature="e#1173#1201#0" expanded="true" />
           </folding>
@@ -369,26 +366,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="60" column="33" lean-forward="true" selection-start-line="55" selection-start-column="3" selection-end-line="63" selection-end-column="6" />
+        <state relative-caret-position="153">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/Dragon4lymbda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="323">
+          <caret line="108" column="5" lean-forward="true" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1199#1240#0" expanded="true" />
-            <element signature="e#1352#1353#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
-            <element signature="e#1502#1503#0" expanded="true" />
-            <element signature="e#1560#1561#0" expanded="true" />
-            <element signature="e#1632#1633#0" expanded="true" />
-            <element signature="e#1711#1712#0" expanded="true" />
-            <element signature="e#1781#1782#0" expanded="true" />
-            <element signature="e#1994#1995#0" expanded="true" />
+            <element signature="e#1724#1725#0" expanded="true" />
+            <element signature="e#1759#1760#0" expanded="true" />
+            <element signature="e#1806#1807#0" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
+            <element signature="e#1880#1881#0" expanded="true" />
+            <element signature="e#1908#1909#0" expanded="true" />
+            <element signature="e#1939#1940#0" expanded="true" />
+            <element signature="e#1966#1967#0" expanded="true" />
+            <element signature="e#2006#2007#0" expanded="true" />
+            <element signature="e#2038#2039#0" expanded="true" />
+            <element signature="e#2108#2109#0" expanded="true" />
+            <element signature="e#2159#2160#0" expanded="true" />
+            <element signature="e#2372#2373#0" expanded="true" />
+            <element signature="e#2400#2401#0" expanded="true" />
+            <element signature="e#3219#3220#0" expanded="true" />
+            <element signature="e#3293#3294#0" expanded="true" />
+            <element signature="e#3326#3327#0" expanded="true" />
+            <element signature="e#3366#3367#0" expanded="true" />
+            <element signature="e#3406#3407#0" expanded="true" />
+            <element signature="e#3444#3445#0" expanded="true" />
+            <element signature="e#3564#3565#0" expanded="true" />
+            <element signature="e#3607#3608#0" expanded="true" />
+            <element signature="e#3647#3648#0" expanded="true" />
+            <element signature="e#3688#3689#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,8 +1,4 @@
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Random;
-import java.util.function.Consumer;
+import java.util.*;
 import java.util.function.Supplier;
 
 public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements Flyable, FireBreathable {
@@ -14,43 +10,6 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
     public int getWings() {
         return wings;
     }
-
-
-    public static class FBHead {
-
-        private double firePower;
-        private int rechargeTime;
-
-        public FBHead(double firePower, int rechargeTime) {
-            this.firePower = firePower;
-            this.rechargeTime = rechargeTime;
-        }
-
-        public String toString() {
-            return "[" + firePower + ": " + rechargeTime + "]";
-        }
-
-        double getFirePower() {
-            return firePower;
-        }
-
-        void setFirePower(double fp) {
-            firePower = fp;
-        }
-
-        public Consumer<Double> setFirePowerConsumer = (Double fp) -> firePower = fp;
-
-        int getRechargeTime() {
-            return rechargeTime;
-        }
-
-        void setRechargeTime(int rt) {
-            rechargeTime = rt;
-        }
-
-        public Consumer <Integer> setrechargeTime2 = (Integer rt) ->  rechargeTime = rt;
-    }
-
 
 
     private ArrayList<FBHead> fbheads;
@@ -133,7 +92,7 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
         fbheads = new ArrayList<FBHead>(heads);
         Random rnd = new Random();
         for (int i = 0; i < heads; i++) {
-            fbheads.add(new FBHead(rnd.nextDouble() * 10, rnd.nextInt(100) + 1));
+            fbheads.add(new FBHead(rnd.nextDouble() * 3, rnd.nextInt(100) + 1));
         }
     }
 
@@ -168,8 +127,24 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
-        System.out.println(String.format("Имя: %s\nГоловы: %s\nМощность на голову: %s\nПорядковый номер: %s",
-                name, heads, powerPerHead, numberOfDragons));
+        System.out.println(String.format("Имя: %s\nГоловы: %s\nМощность на голову: %s",
+                name, heads, powerPerHead));
 
     }
+
+    private Function<Integer, List<FBHead>> addRandomFbHeads = (Integer maxKolHeads) -> {
+        Random rnd = new Random();
+        int kolHeads = rnd.nextInt ( maxKolHeads );
+        if (kolHeads > 0) {
+            List<FBHead> newHeads = new ArrayList<> ( kolHeads );
+            while (newHeads.size () < kolHeads) {
+                newHeads.add ( new FBHead(rnd.nextDouble() * 10,
+                        rnd.nextInt(100) + 1));
+            }
+            return newHeads;
+        }
+        return Collections.emptyList ();
+    };
+
+
 }
