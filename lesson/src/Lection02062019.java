@@ -14,7 +14,6 @@ class Triplet implements Comparable<Triplet> {
     String b;
     double c;
 
-
     @Override
     public int compareTo(Triplet o) {
         return 0;
