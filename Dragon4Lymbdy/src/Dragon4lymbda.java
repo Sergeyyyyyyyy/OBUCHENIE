@@ -27,7 +27,7 @@ public class Dragon4lymbda<localheads> {
         heads = 3;
         name = "Goryynych";
         powerPerHead = 100;
-        count++;
+
     }
 
     protected int heads;
@@ -73,7 +73,7 @@ public class Dragon4lymbda<localheads> {
     public static int getCount() {
         return count;
     }
-
+// действие дракона, которое могло бы быть описано посредством метода функционального интерфейса BinaryOperator.
     private BinaryOperator<Integer> addHeads = (Integer prevHeads, Integer newHeads) -> prevHeads + newHeads;
 
     private void addRandomHeads(int maxHeads) {

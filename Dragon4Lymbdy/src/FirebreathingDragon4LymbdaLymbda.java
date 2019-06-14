@@ -12,7 +12,7 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
         return wings;
     }
 
-
+// Для 5 задачи
     public static class FBHead {
 
         private double firePower;
@@ -34,7 +34,7 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
         void setFirePower(double fp) {
             firePower = fp;
         }
-
+    //  функциональный интерфейс можно использовать для метода установки огневой мощи и времени перезарядки отдельной головы дракона.
         public Consumer<Double> setFirePowerConsumer = (Double fp) -> firePower = fp;
 
         int getRechargeTime() {
@@ -44,7 +44,7 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
         void setRechargeTime(int rt) {
             rechargeTime = rt;
         }
-
+    //  функциональный интерфейс можно использовать для метода установки огневой мощи и времени перезарядки отдельной головы дракона.
         public Consumer <Integer> setrechargeTime2 = (Integer rt) ->  rechargeTime = rt;
     }
 
@@ -192,7 +192,7 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
         if (fbheads == null || fbheads.size () == 0) {
             return;
         }
-
+// Для 4 задачи
         Random rnd = new Random();
         int removeHeadIndex = rnd.nextInt ( fbheads.size () );
         fbheads.remove ( removeHeadIndex );
