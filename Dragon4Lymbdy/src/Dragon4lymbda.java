@@ -9,7 +9,7 @@ import java.util.function.Function;
 import java.util.function.UnaryOperator;
 import java.util.function.BinaryOperator;
 
-
+// для задачи № 4
 public class Dragon4lymbda<localheads> {
     private static int count;
     protected String name;
@@ -31,11 +31,6 @@ public class Dragon4lymbda<localheads> {
     }
 
     protected int heads;
-
-
-
-
-
 
     public double getPowerPerHead() {
         return powerPerHead;

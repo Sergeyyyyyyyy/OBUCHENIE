@@ -2,6 +2,7 @@ import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
+// для задачи №5
 public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements Flyable, FireBreathable {
 
 
@@ -12,7 +13,7 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
         return wings;
     }
 
-// Для 5 задачи
+    // Для 5 задачи
     public static class FBHead {
 
         private double firePower;
@@ -34,7 +35,8 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
         void setFirePower(double fp) {
             firePower = fp;
         }
-    //  функциональный интерфейс можно использовать для метода установки огневой мощи и времени перезарядки отдельной головы дракона.
+
+        //  функциональный интерфейс можно использовать для метода установки огневой мощи и времени перезарядки отдельной головы дракона.
         public Consumer<Double> setFirePowerConsumer = (Double fp) -> firePower = fp;
 
         int getRechargeTime() {
@@ -44,24 +46,25 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
         void setRechargeTime(int rt) {
             rechargeTime = rt;
         }
-    //  функциональный интерфейс можно использовать для метода установки огневой мощи и времени перезарядки отдельной головы дракона.
-        public Consumer <Integer> setrechargeTime2 = (Integer rt) ->  rechargeTime = rt;
+
+        //  функциональный интерфейс можно использовать для метода установки огневой мощи и времени перезарядки отдельной головы дракона.
+        public Consumer<Integer> setrechargeTime2 = (Integer rt) -> rechargeTime = rt;
     }
 
     private ArrayList<FBHead> fbheads;
 
     public Supplier<Double> middlePowerPerHeadSupplier = () -> {
-        if (fbheads != null && fbheads.size () > 0) {
-            return fbheads.stream ().mapToDouble (FBHead::getFirePower)
-                    .average ().orElse ( 0 );
+        if (fbheads != null && fbheads.size() > 0) {
+            return fbheads.stream().mapToDouble(FBHead::getFirePower)
+                    .average().orElse(0);
         }
         return null;
     };
 
     public Supplier<Double> fullPowerAllHeadSupplier = () -> {
-        if (fbheads != null && fbheads.size () > 0) {
-            return fbheads.stream ().mapToDouble (FBHead::getFirePower)
-                    .sum ();
+        if (fbheads != null && fbheads.size() > 0) {
+            return fbheads.stream().mapToDouble(FBHead::getFirePower)
+                    .sum();
         }
         return null;
     };
@@ -94,6 +97,8 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
         // но в заданных диапазонах.
         // Значения огневой мощи и времени восстановления огневой мощи при создании голов дракона должны генерироваться по-прежнему случайным образом,
         super();
+
+
         fbheads = new ArrayList<FBHead>(heads);
         Random rnd = new Random();
         for (int i = 0; i < heads; i++) {
@@ -141,7 +146,6 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
     }
 
 
-
     public double getFullPower() {
         double fullp = 0;
         for (FBHead fbh : fbheads) {
@@ -155,13 +159,13 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
     }
 
     public void setHead(int index, double fp, int rt) {
-        fbheads.get(index).setFirePowerConsumer.accept (fp);
-        fbheads.get(index).setrechargeTime2.accept ( rt );
+        fbheads.get(index).setFirePowerConsumer.accept(fp);
+        fbheads.get(index).setrechargeTime2.accept(rt);
 
     }
 
     public int getFbHeadsCount() {
-        return fbheads != null ? fbheads.size () : 0;
+        return fbheads != null ? fbheads.size() : 10;
     }
 
     public void printActiveHeads() {
@@ -176,26 +180,26 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
 
     private Function<Integer, List<FBHead>> addRandomFbHeads = (Integer maxKolHeads) -> {
         Random rnd = new Random();
-        int kolHeads = rnd.nextInt ( maxKolHeads );
+        int kolHeads = rnd.nextInt(maxKolHeads);
         if (kolHeads > 0) {
-            List<FBHead> newHeads = new ArrayList<> ( kolHeads );
-            while (newHeads.size () < kolHeads) {
-                newHeads.add ( new FBHead(rnd.nextDouble() * 10,
+            List<FBHead> newHeads = new ArrayList<>(kolHeads);
+            while (newHeads.size() < kolHeads) {
+                newHeads.add(new FBHead(rnd.nextDouble() * 10,
                         rnd.nextInt(100) + 1));
             }
             return newHeads;
         }
-        return Collections.emptyList ();
+        return Collections.emptyList();
     };
 
     public void removeHead() {
-        if (fbheads == null || fbheads.size () == 0) {
+        if (fbheads == null || fbheads.size() == 0) {
             return;
         }
 // Для 4 задачи
         Random rnd = new Random();
-        int removeHeadIndex = rnd.nextInt ( fbheads.size () );
-        fbheads.remove ( removeHeadIndex );
-        fbheads.addAll ( removeHeadIndex, this.addRandomFbHeads.apply ( 10 ) );
+        int removeHeadIndex = rnd.nextInt(fbheads.size());
+        fbheads.remove(removeHeadIndex);
+        fbheads.addAll(removeHeadIndex, this.addRandomFbHeads.apply(10));
     }
 }

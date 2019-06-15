@@ -1,60 +1,59 @@
 import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
+// для решения задач по СтримАпи
 public class TestclassStreamApi10dgagons implements Flyable, FireBreathable {
     public static void main(String... args) {
 
-        String[] arrs = {"drag5", "drag6", "drag7", "drag8", "drag9", "drag10"};
-        Stream<String> drags = Arrays.stream ( arrs );
-        long n1 = drags.filter ( s -> s.length () < 10 ).count ();
-        System.out.println ( n1 );
-        drags = Arrays.stream ( arrs );
-        System.out.println ( drags.skip ( 10 ).count () );
+        //String[] arrs = {"drag5", "drag6", "drag7", "drag8", "drag9", "drag10"};
+        //Stream<String> drags = Arrays.stream ( arrs );
+        //long n1 = drags.filter ( s -> s.length () < 4 ).count ();
+        //System.out.println ( n1 );
 
-        drags = Arrays.stream ( arrs );
-        System.out.println ( drags.distinct ().distinct ().collect ( Collectors.toList () ) );
-        drags = Arrays.stream ( arrs );
-        drags.mapToInt ( String::length ).forEach ( System.out::println );
-        drags = Arrays.stream ( arrs );
-        drags.flatMapToInt ( String::chars ).forEach ( System.out::println );
-        drags = Arrays.stream ( arrs );
-        drags.peek ( c -> System.out.println ( "!! " + c ) ).forEach ( s -> {
-        } );
-        drags = Arrays.stream ( arrs );
-        drags.limit ( 3 ).forEach ( System.out::println );
-        drags = Arrays.stream ( arrs );
-        drags.sorted ().forEach ( System.out::println );
-        drags = Arrays.stream ( arrs );
-        System.out.println ( drags.anyMatch ( "ab"::equals ) );
-        drags = Arrays.stream ( arrs );
-        System.out.println ( drags.allMatch ( s -> s.contains ( "a" ) ) );
-        String s = "и\u0306";
-        System.out.println ( s );
-        System.out.println ( s.length () );
-
-
-        FirebreathingDragon4LymbdaLymbda drag5 = new FirebreathingDragon4LymbdaLymbda ( 35, 57 );
+        FirebreathingDragon4LymbdaLymbda drag5 = new FirebreathingDragon4LymbdaLymbda ( 35, 57, 56, 78, 7,85 );
         drag5.setHead ( 4, 51, 67 );
-        FirebreathingDragon4LymbdaLymbda drag6 = new FirebreathingDragon4LymbdaLymbda ( 53, 98 );
-        drag5.setHead ( 7, 84, 23 );
-        FirebreathingDragon4LymbdaLymbda drag7 = new FirebreathingDragon4LymbdaLymbda ( 23, 30 );
-        drag5.setHead ( 8, 98, 44 );
-        FirebreathingDragon4LymbdaLymbda drag8 = new FirebreathingDragon4LymbdaLymbda ( 66, 84 );
-        drag5.setHead ( 9, 9, 41 );
-        FirebreathingDragon4LymbdaLymbda drag9 = new FirebreathingDragon4LymbdaLymbda ( 21, 28 );
-        drag5.setHead ( 5, 37, 27 );
-        FirebreathingDragon4LymbdaLymbda drag10 = new FirebreathingDragon4LymbdaLymbda ( 88, 33 );
-        drag5.setHead ( 6, 78, 35 );
-        FirebreathingDragon4LymbdaLymbda drag12 = new FirebreathingDragon4LymbdaLymbda ( 68, 22 );
-        drag5.setHead ( 11, 523, 98 );
-        FirebreathingDragon4LymbdaLymbda drag13 = new FirebreathingDragon4LymbdaLymbda ( 77, 11 );
-        drag5.setHead ( 14, 90, 56 );
-        FirebreathingDragon4LymbdaLymbda drag14 = new FirebreathingDragon4LymbdaLymbda ( 99, 55 );
-        drag5.setHead ( 10, 21, 95 );
-        FirebreathingDragon4LymbdaLymbda drag15 = new FirebreathingDragon4LymbdaLymbda ( 44, 20 );
-        drag5.setHead ( 12, 41, 54 );
+        drag5.setName ("RRRRRR");
+        FirebreathingDragon4LymbdaLymbda drag6 = new FirebreathingDragon4LymbdaLymbda ( 53, 98, 8, 4,8 );
+        drag6.setHead ( 3, 84, 23 );
+        drag6.setName ("TTTTTTTTTTT");
+        FirebreathingDragon4LymbdaLymbda drag7 = new FirebreathingDragon4LymbdaLymbda ( 23, 30,2,4,8);
+        drag7.setHead ( 2, 98, 44 );
+        drag7.setName ("WWW");
+        FirebreathingDragon4LymbdaLymbda drag8 = new FirebreathingDragon4LymbdaLymbda ( 66, 84,11,21,1 );
+        drag8.setHead ( 3, 9, 41 );
+        drag8.setName ("yyyyyy");
+        FirebreathingDragon4LymbdaLymbda drag9 = new FirebreathingDragon4LymbdaLymbda ( 21, 28,77,88,99,14);
+        drag9.setHead ( 4, 37, 27 );
+        drag9.setName ("kkkkkkkkkkk");
+        FirebreathingDragon4LymbdaLymbda drag10 = new FirebreathingDragon4LymbdaLymbda ( 88, 33,48,40,48 );
+        drag10.setHead ( 3, 78, 35 );
+        drag10.setName ("SSSSSSS");
+        FirebreathingDragon4LymbdaLymbda drag12 = new FirebreathingDragon4LymbdaLymbda ( 68, 22,98,87,98 );
+        drag12.setHead ( 2, 523, 98 );
+        drag12.setName ("ZZZZZZZZZZZZ");
+        FirebreathingDragon4LymbdaLymbda drag13 = new FirebreathingDragon4LymbdaLymbda ( 77, 11,87,65,10,54 );
+        drag13.setHead ( 4, 90, 56 );
+        drag13.setName ("vvvvvvvvv");
+        FirebreathingDragon4LymbdaLymbda drag14 = new FirebreathingDragon4LymbdaLymbda ( 99, 55,45,4,15 );
+        drag14.setHead ( 2, 21, 95 );
+        drag14.setName ("XXXXXXXXXXXXXXXXXPPPPPPPPP");
+        FirebreathingDragon4LymbdaLymbda drag15 = new FirebreathingDragon4LymbdaLymbda ( 44, 20,87,6,4 );
+        drag15.setHead ( 3, 41, 54 );
+        drag15.setName ("POUYTREEWW");
 
+        List <FirebreathingDragon4LymbdaLymbda> newDragons = Arrays.asList(drag5,drag6,drag7,drag8,drag9,drag10,drag12,drag13,drag14,drag15);
+
+        // Задание 1  Проверка кол-во голов у новых драконов
+        int minKolGolov = 0; // эквивалентно n1  по задаче
+        int maxKolGolov = 6; // эквивалентно n2 по задаче
+
+        newDragons.stream().filter(dragon ->
+                dragon.getFbHeadsCount() >  minKolGolov &&  dragon.getFbHeadsCount() < maxKolGolov)
+        .map(dragon -> dragon.name)
+                .forEach(dragonName -> {
+                    System.out.println(dragonName);
+                });
     }
 
 
