@@ -109,6 +109,7 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
         heads = headerFirePower.length;
         fbheads = new ArrayList<FBHead>(heads);
         for (int power : headerFirePower) {
+
             fbheads.add(new FBHead(power, rt));
         }
     }
