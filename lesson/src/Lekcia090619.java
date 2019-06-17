@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Optional;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -8,7 +9,13 @@ class Test {
         String[] arrs = {"ab", "cde", "xyz", "ab", "fgh", "cde", "bl"};
         Stream<String> st1 = Arrays.stream(arrs);
         long c1 = st1.filter(s -> s.length() < 3).count();
-        System.out.println(c1);
+
+
+
+        Optional<String> min = st1.min(String::compareTo);
+        System.out.println(min.get());
+
+        System.out.println(0);
         st1 = Arrays.stream(arrs);
         System.out.println(st1.skip(4).count());
         st1 = Arrays.stream(arrs);
@@ -41,6 +48,7 @@ class Test {
                 .forEach(ltr::appendCodePoint);
         StringBuilder rtl = new StringBuilder(ltr).reverse();
         return ltr.toString().equals(rtl.toString());
+
 
     }
 }
