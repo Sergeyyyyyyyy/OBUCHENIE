@@ -45,7 +45,7 @@ public class TestclassStreamApi10dgagons {
         drag15.setName("POUYTREEWW");
 
         List<FirebreathingDragon4LymbdaLymbda> newDragons = Arrays.asList(drag5, drag6, drag7, drag8, drag9, drag10, drag12, drag13, drag14, drag15);
-//        zadanie1ProverkaDragondsonHeads(newDragons);
+//        zadanie№1ProverkaDragondsonHeads(newDragons);
         zadanie2SortirovkaDragondspoUbyvaniu(newDragons);
     }
 
