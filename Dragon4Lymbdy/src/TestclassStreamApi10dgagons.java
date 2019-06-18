@@ -6,7 +6,15 @@ import java.util.stream.Stream;
 
 // для решения задач по СтримАпи
 public class TestclassStreamApi10dgagons {
+
+    public static double rnd(int min, int max)
+    {
+        max -= min;
+        return (double) (Math.random() * ++max) + min;
+    }
+
     public static void main(String... args) {
+
 
         //String[] arrs = {"drag5", "drag6", "drag7", "drag8", "drag9", "drag10"};
         //Stream<String> drags = Arrays.stream ( arrs );
@@ -85,4 +93,40 @@ public class TestclassStreamApi10dgagons {
             System.out.println(tmp.get(i) + ",getFullPower = " + tmp.get(i).getFullPower());
         }
     }
+    // Задание 3
+    private static void zadanie3SortirovkaDragondspoMinMAx(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
+        double polnayaVelichina = 5;
+        //int map;
+        // Collector<Object, ?, List<Object>> toList = Collectors.toList();
+
+        final int minA = 0; // Минимальное число для диапазона
+        final int maxB = 1000; // Максимальное число для диапазона
+
+
+        List<FirebreathingDragon4LymbdaLymbda> tmp = newDragons.stream()
+                .filter(dragon -> dragon.getMaxPowerPerHead()<= polnayaVelichina )
+                .map(dragon -> {
+                    for (int i=0; i < polnayaVelichina; i++) {
+                        FirebreathingDragon4LymbdaLymbda.FBHead head = dragon.getHead(i);
+                        head.setFirePower(head.getFirePower()+ rnd(minA,maxB));
+                    }
+                    return dragon;
+                })
+                .sorted(
+                (x, y) -> ((Double) x.getPowerPerHead()).compareTo(y.getPowerPerHead())
+        )
+                .collect(Collectors.toList());
+//                .forEach(dragon -> {
+//                    System.out.println(dragon + ",getFullPower = " + dragon.getFullPower());
+//                })
+        ;
+
+        for (int i = 1; i < (tmp.size()-1); i++) {
+            System.out.println(tmp.get(i) + ",getFullPower = " + tmp.get(i).getFullPower() + ",getPowerPerHead = " + tmp.get(i) .getPowerPerHead() );
+        }
+    }
+
+
+
+
 }

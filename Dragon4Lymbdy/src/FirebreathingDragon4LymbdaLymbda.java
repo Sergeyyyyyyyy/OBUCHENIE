@@ -146,6 +146,15 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
         return getFullPower() / getHeads();
     }
 
+    public double getMaxPowerPerHead() {
+        double maxHeadpower = 0;
+        for (FBHead fbh : fbheads) {
+            maxHeadpower = Math.max(maxHeadpower,fbh.firePower);
+        }
+        return maxHeadpower;
+
+    }
+
 
     public double getFullPower() {
         double fullp = 0;
@@ -203,4 +212,6 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
         fbheads.remove(removeHeadIndex);
         fbheads.addAll(removeHeadIndex, this.addRandomFbHeads.apply(10));
     }
+
+
 }
