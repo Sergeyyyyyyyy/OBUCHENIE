@@ -7,8 +7,7 @@ import java.util.stream.Stream;
 // для решения задач по СтримАпи
 public class TestclassStreamApi10dgagons {
 
-    public static double rnd(int min, int max)
-    {
+    public static double rnd(int min, int max) {
         max -= min;
         return (double) (Math.random() * ++max) + min;
     }
@@ -53,8 +52,9 @@ public class TestclassStreamApi10dgagons {
         drag15.setName("POUYTREEWW");
 
         List<FirebreathingDragon4LymbdaLymbda> newDragons = Arrays.asList(drag5, drag6, drag7, drag8, drag9, drag10, drag12, drag13, drag14, drag15);
-//        zadanie№1ProverkaDragondsonHeads(newDragons);
+        zadanie1ProverkaDragondsonHeads(newDragons);
         zadanie2SortirovkaDragondspoUbyvaniu(newDragons);
+        zadanie3SortirovkaDragondspoMinMAx(newDragons);
     }
 
     // Задание 1  Проверка кол-во голов у новых драконов
@@ -87,12 +87,13 @@ public class TestclassStreamApi10dgagons {
 //                .forEach(dragon -> {
 //                    System.out.println(dragon + ",getFullPower = " + dragon.getFullPower());
 //                })
-                ;
+        ;
 
         for (int i = 0; i < Math.min(firstN, tmp.size()); i++) {
             System.out.println(tmp.get(i) + ",getFullPower = " + tmp.get(i).getFullPower());
         }
     }
+
     // Задание 3
     private static void zadanie3SortirovkaDragondspoMinMAx(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
         double polnayaVelichina = 5;
@@ -104,29 +105,27 @@ public class TestclassStreamApi10dgagons {
 
 
         List<FirebreathingDragon4LymbdaLymbda> tmp = newDragons.stream()
-                .filter(dragon -> dragon.getMaxPowerPerHead()<= polnayaVelichina )
+                .filter(dragon -> dragon.getMaxPowerPerHead() <= polnayaVelichina)  // кол-во драконов почему-то - 0
                 .map(dragon -> {
-                    for (int i=0; i < polnayaVelichina; i++) {
+                    for (int i = 0; i < polnayaVelichina; i++) {
                         FirebreathingDragon4LymbdaLymbda.FBHead head = dragon.getHead(i);
-                        head.setFirePower(head.getFirePower()+ rnd(minA,maxB));
+                        head.setFirePower(head.getFirePower() + rnd(minA, maxB));
                     }
                     return dragon;
                 })
                 .sorted(
-                (x, y) -> ((Double) x.getPowerPerHead()).compareTo(y.getPowerPerHead())
-        )
+                        (x, y) -> ((Double) x.getPowerPerHead()).compareTo(y.getPowerPerHead())
+                )
                 .collect(Collectors.toList());
 //                .forEach(dragon -> {
 //                    System.out.println(dragon + ",getFullPower = " + dragon.getFullPower());
 //                })
         ;
 
-        for (int i = 1; i < (tmp.size()-1); i++) {
-            System.out.println(tmp.get(i) + ",getFullPower = " + tmp.get(i).getFullPower() + ",getPowerPerHead = " + tmp.get(i) .getPowerPerHead() );
+        for (int i = 1; i < (tmp.size() - 1); i++) {
+            System.out.println(tmp.get(i) + ",getFullPower = " + tmp.get(i).getFullPower() + ",getPowerPerHead = " + tmp.get(i).getPowerPerHead());
         }
     }
-
-
 
 
 }
