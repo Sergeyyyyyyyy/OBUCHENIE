@@ -1,41 +1,37 @@
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class TestclassStreamApi10dgagons {
+public class StreamApi10dgagons {
     public static void main(String... args) {
 
         String[] arrs = {"drag5", "drag6", "drag7", "drag8", "drag9", "drag10"};
-        Stream<String> drags = Arrays.stream(arrs);
-        long n1 = drags.filter(s ->  s.length() < 10).count();
-        System.out.println(n1);
-        drags = Arrays.stream(arrs);
-        System.out.println(drags.skip(10).count());
+        Stream<String> drags = Arrays.stream ( arrs );
+        long n1 = drags.filter ( s -> s.length () < 10 ).count ();
+        System.out.println ( n1 );
+        drags = Arrays.stream ( arrs );
+        System.out.println ( drags.skip ( 10 ).count () );
 
-        drags = Arrays.stream(arrs);
-        System.out.println(drags.distinct().distinct().collect( Collectors.toList()));
-        drags = Arrays.stream(arrs);
-        drags.mapToInt(String::length).forEach(System.out::println);
-        drags = Arrays.stream(arrs);
-        drags.flatMapToInt(String::chars).forEach(System.out::println);
-        drags = Arrays.stream(arrs);
-        drags.peek(c -> System.out.println("!! " + c)).forEach(s -> {
-        });
-        drags = Arrays.stream(arrs);
-        drags.limit(3).forEach(System.out::println);
-        drags = Arrays.stream(arrs);
-        drags.sorted().forEach(System.out::println);
-        drags = Arrays.stream(arrs);
-        System.out.println(drags.anyMatch("ab"::equals));
-        drags = Arrays.stream(arrs);
-        System.out.println(drags.allMatch(s -> s.contains("a")));
+        drags = Arrays.stream ( arrs );
+        System.out.println ( drags.distinct ().distinct ().collect ( Collectors.toList () ) );
+        drags = Arrays.stream ( arrs );
+        drags.mapToInt ( String::length ).forEach ( System.out::println );
+        drags = Arrays.stream ( arrs );
+        drags.flatMapToInt ( String::chars ).forEach ( System.out::println );
+        drags = Arrays.stream ( arrs );
+        drags.peek ( c -> System.out.println ( "!! " + c ) ).forEach ( s -> {
+        } );
+        drags = Arrays.stream ( arrs );
+        drags.limit ( 3 ).forEach ( System.out::println );
+        drags = Arrays.stream ( arrs );
+        drags.sorted ().forEach ( System.out::println );
+        drags = Arrays.stream ( arrs );
+        System.out.println ( drags.anyMatch ( "ab"::equals ) );
+        drags = Arrays.stream ( arrs );
+        System.out.println ( drags.allMatch ( s -> s.contains ( "a" ) ) );
         String s = "и\u0306";
-        System.out.println(s);
-        System.out.println(isPalindrome(s));
-        System.out.println(s.length());
-
+        System.out.println ( s );
+         System.out.println ( s.length () );
 
 
         FirebreathingDragon4LymbdaLymbda drag5 = new FirebreathingDragon4LymbdaLymbda ( 35, 57 );
@@ -61,6 +57,7 @@ public class TestclassStreamApi10dgagons {
 
     }
 
-    private static boolean isPalindrome(String s) {
-    return }
+    private static void isPalindrome(String s) {
+
+    }
 }

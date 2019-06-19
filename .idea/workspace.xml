@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="26779cb0-a2c0-425a-8097-025b93ca8674" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dragon4Lymbdy/src/TestclassStreamApi10dgagons.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dragon4Lymbdy/src/TestclassStreamApi10dgagons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Пример/src/TestclassStreamApi10dgagons.java" beforeDir="false" afterPath="$PROJECT_DIR$/Пример/src/StreamApi10dgagons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Пример/Пример.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Пример/Пример.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,55 +19,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Пример/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson/src/MyPairClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson/src/Zadachaot160619.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#719#720#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson/src/SomeClass.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
-              <caret line="1" column="11" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="44" />
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Пример/src/StreamApi10dgagons.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,6 +55,7 @@
       <find>FirebreathingDragon4</find>
       <find>heads</find>
       <find>count</find>
+      <find>Stream</find>
     </findStrings>
     <replaceStrings>
       <replace>FirebreathingDragon4lymbda</replace>
@@ -117,14 +87,16 @@
         <option value="$PROJECT_DIR$/Пример/src/Someclass.java" />
         <option value="$PROJECT_DIR$/Dragon4Lymbdy/src/Dragon4lymbda.java" />
         <option value="$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java" />
+        <option value="$PROJECT_DIR$/lesson/src/Zadachaot160619.java" />
         <option value="$PROJECT_DIR$/Dragon4Lymbdy/src/TestclassStreamApi10dgagons.java" />
+        <option value="$PROJECT_DIR$/Пример/src/StreamApi10dgagons.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="486" />
-    <option name="width" value="801" />
-    <option name="height" value="991" />
+    <option name="x" value="1007" />
+    <option name="width" value="912" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -144,11 +116,6 @@
             <path>
               <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
               <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
               <item name="Dragon4Lymbdy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -160,24 +127,6 @@
             <path>
               <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
               <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lekcia160619.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
               <item name="Пример" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -185,13 +134,20 @@
               <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
               <item name="Пример" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
+              <item name="Пример" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Test10042019.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,7 +179,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestclassStreamApi10dgagons">
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="Пример" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SomeClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SomeClass" />
       <module name="Пример" />
@@ -233,13 +196,6 @@
     </configuration>
     <configuration name="Someclass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Someclass" />
-      <module name="Пример" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Someclass4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Someclass4" />
       <module name="Пример" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -261,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.TestclassStreamApi10dgagons" />
         <item itemvalue="Application.Testclass4" />
         <item itemvalue="Application.SomeClass" />
         <item itemvalue="Application.Someclass" />
-        <item itemvalue="Application.Someclass4" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560414368660</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Учебные программы">
+      <created>1560931778163</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560931778163</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -315,8 +278,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15264423" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17243244" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -326,15 +290,15 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.10677382" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19146483" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40413317" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295063" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.35897437" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49878934" weight="0.27898967" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.23306544" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3295063" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5018182" side_tool="true" weight="0.28103045" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.2870264" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Maven" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -344,35 +308,6 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15264423" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Repositories" order="6" weight="0.32972974" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.10677382" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19173364" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295063" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.35897437" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.23306544" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3295063" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Maven" order="1" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -417,7 +352,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Решение 5,6,7  задач от 11.06.2019 в Dragon4lymbda" />
     <MESSAGE value="Fix merging 13.06" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix merging 13.06" />
+    <MESSAGE value="Учебные программы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Учебные программы" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -542,16 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Пример/src/TestclassStreamApi10dgagons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/BinaryOperator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -589,23 +515,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java">
+    <entry file="file://$PROJECT_DIR$/lesson/src/MyPairClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="144" column="29" lean-forward="true" selection-start-line="144" selection-start-column="18" selection-end-line="144" selection-end-column="33" />
+        <state relative-caret-position="308">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="656" column="18" selection-start-line="656" selection-start-column="18" selection-end-line="656" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="449" column="14" selection-start-line="449" selection-start-column="14" selection-end-line="449" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Пример/src/Quiz.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson/src/SomeClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson/src/Zadachaot160619.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson/src/Lekcia160619.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="192" column="3" selection-start-line="190" selection-start-column="4" selection-end-line="202" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4908#4909#0" expanded="true" />
+            <element signature="e#4958#4959#0" expanded="true" />
+            <element signature="e#5395#5396#0" expanded="true" />
+            <element signature="e#5436#5437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/TestclassStreamApi10dgagons.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="670">
+          <caret line="162" column="32" lean-forward="true" selection-start-line="162" selection-start-column="32" selection-end-line="162" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Пример/src/StreamApi10dgagons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Пример/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
