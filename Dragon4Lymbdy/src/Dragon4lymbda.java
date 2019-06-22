@@ -15,6 +15,15 @@ public class Dragon4lymbda<localheads> {
     protected String name;
     protected double powerPerHead;
 
+    // 4. Реализовать "пересборку" голов, средствами потоков данных (превратите список голов в поток данных
+    // 4. Реализовать "пересборку" голов, средствами потоков данных (превратите список голов в поток данных
+    public void removedHead2(int heads) {
+        if (this.heads > heads) {
+            this.heads -= heads;
+            this.addRandomHeads(5);
+        }
+    }
+
     public Dragon4lymbda(int heads, String name, double pph) {
         this.heads = heads;
         this.name = name;

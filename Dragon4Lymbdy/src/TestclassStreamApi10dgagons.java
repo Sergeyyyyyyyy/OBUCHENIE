@@ -55,7 +55,7 @@ public class TestclassStreamApi10dgagons {
         zadanie1ProverkaDragondsonHeads(newDragons);
         zadanie2SortirovkaDragondspoUbyvaniu(newDragons);
         zadanie3SortirovkaDragondspoMinMAx(newDragons);
-        // zadanie4PeresborkaSpiskagolovcherezPotokDannyh ( newDragons );
+        zadanie4PeresborkaSpiskagolovcherezPotokDannyh(newDragons);
         zadanie5PeresborkaSpiskagolovcherezPotokDannyh(newDragons);
 
     }
@@ -135,40 +135,33 @@ public class TestclassStreamApi10dgagons {
 
     }
 
- /*  // Задание 4  В предыдущей записи (о функциональных интерфейсах и лямбда-выражениях) предлагалось реализовать
+    // Задание 4  В предыдущей записи (о функциональных интерфейсах и лямбда-выражениях) предлагалось реализовать
     // "пересборку" списка голов после регенерации (с использованием какой-либо удобной структуры данных).
     // Реализуйте эту "пересборку" средствами потоков данных (превратите список голов в поток данных,
     // примените к каждой голове процедуру регенерации, а после вновь соберите в список).
 
     private static void zadanie4PeresborkaSpiskagolovcherezPotokDannyh(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
+        // задаем 2 метод регенерации голов
+        // 1. Записать в переменную первого дракона из списка драконов ?
+        // 2. Вывести на печать текущее кол-во голов
+        // 3. Произвести регенерацию головы
+        // 5. Посчитать сколько получилось "новых голов" и вывести на печать
+
+        FirebreathingDragon4LymbdaLymbda dragon = newDragons.get(0);
+        //
+        System.out.println("Текущее кол-во голов =  " + dragon.getHeads());
+        //
+
+        dragon.removedHead2(0);
+        System.out.println("Новое кол-во голов =  " + dragon.getHeads());
+    }
 
 
-        newDragons.stream ()
-                .forEach ( dragon -> {
-                    dragon.
-                    System.out.println ( dragonName );
-                } );
-
-        private Function<Integer, List<FirebreathingDragon4LymbdaLymbda.FBHead>> addRandomFbHeads = (Integer maxKolHeads) -> {
-            Random rnd = new Random();
-            int kolHeads = rnd.nextInt(maxKolHeads);
-            if (kolHeads > 0) {
-                List<FirebreathingDragon4LymbdaLymbda.FBHead> newHeads = new ArrayList<> (kolHeads);
-                while (newHeads.size() < kolHeads) {
-                    newHeads.add(new FirebreathingDragon4LymbdaLymbda.FBHead (rnd.nextDouble() * 10,
-                            rnd.nextInt(100) + 1));
-                }
-                return newHeads;
-            }
-            return Collections.emptyList();
-        };
-
-    } */
 
 
     // Задание 5 Выберите из потока данных драконов, имеющих не менее заданного количества голов.
-// Примените к случайно выбранной голове каждого такого дракона процедуру регенерации.
-// Посчитайте среднее количество голов, приходящееся на дракона, и выведите это число на печать.
+    // Примените к случайно выбранной голове каждого такого дракона процедуру регенерации.
+    // Посчитайте среднее количество голов, приходящееся на дракона, и выведите это число на печать.
 
     private static void zadanie5PeresborkaSpiskagolovcherezPotokDannyh(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
 
@@ -192,7 +185,7 @@ public class TestclassStreamApi10dgagons {
 
                 })
                 .sum() / newDragons.size();
-        System.out.println("среднее количество голов, приходящееся на дракона " + srednyykolvogolov );
+        System.out.println("среднее количество голов, приходящееся на дракона " + srednyykolvogolov);
         ;
 
     }
