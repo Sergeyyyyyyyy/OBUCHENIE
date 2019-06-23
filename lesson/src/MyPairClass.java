@@ -5,6 +5,7 @@ import java.util.stream.Stream;
 public class MyPairClass {
 
     public static void main(String[] args) {
+/*
 
         ArrayList<MyPair> list = new ArrayList<> ();
         list.add ( new MyPair ( 2, 5 ) );
@@ -16,6 +17,7 @@ public class MyPairClass {
 
         int sumMP = list.stream ().reduce ( 0, (sum, b) -> sum + b.getXY (), Integer::sum );
         System.out.println ( sumMP );
+*/
 
     }
 
