@@ -16,12 +16,21 @@ public class Dragon4lymbda<localheads> {
     protected double powerPerHead;
 
     // 4. Реализовать "пересборку" голов, средствами потоков данных (превратите список голов в поток данных
-    // 4. Реализовать "пересборку" голов, средствами потоков данных (превратите список голов в поток данных
+    // 5. Для решения 4 задания:
+    // В предыдущей записи (о функциональных интерфейсах и лямбда-выражениях) предлагалось реализовать
+    // "пересборку" списка голов после регенерации (с использованием какой-либо удобной структуры данных).
+    // Реализуйте эту "пересборку" средствами потоков данных (превратите список голов в поток данных,
+    // примените к каждой голове процедуру регенерации, а после вновь соберите в список).
+
     public void removedHead2(int heads) {
+
         if (this.heads > heads) {
             this.heads -= heads;
             this.addRandomHeads(5);
         }
+
+
+
     }
 
     public Dragon4lymbda(int heads, String name, double pph) {
@@ -77,19 +86,20 @@ public class Dragon4lymbda<localheads> {
     public static int getCount() {
         return count;
     }
-// действие дракона, которое могло бы быть описано посредством метода функционального интерфейса BinaryOperator.
+
+    // действие дракона, которое могло бы быть описано посредством метода функционального интерфейса BinaryOperator.
     private BinaryOperator<Integer> addHeads = (Integer prevHeads, Integer newHeads) -> prevHeads + newHeads;
 
     private void addRandomHeads(int maxHeads) {
-        Random rnd = new Random ();
-        this.addHeads.apply ( this.heads,  rnd.nextInt ( maxHeads ));
-        this.heads += rnd.nextInt ( maxHeads );
+        Random rnd = new Random();
+        this.addHeads.apply(this.heads, rnd.nextInt(maxHeads));
+        this.heads += rnd.nextInt(maxHeads);
     }
 
     public void removedHead(int heads) {
         if (this.heads > heads) {
             this.heads -= heads;
-            this.addRandomHeads ( 3 );
+            this.addRandomHeads(3);
         }
 
 

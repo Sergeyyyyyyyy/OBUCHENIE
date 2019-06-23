@@ -1,6 +1,9 @@
 import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
+import java.util.stream.Collectors;
+
+import static java.util.function.Function.identity;
 
 // для задачи №5
 public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements Flyable, FireBreathable {
@@ -51,7 +54,7 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
         public Consumer<Integer> setrechargeTime2 = (Integer rt) -> rechargeTime = rt;
     }
 
-    private ArrayList<FBHead> fbheads;
+    private List<FBHead> fbheads;
 
     public Supplier<Double> middlePowerPerHeadSupplier = () -> {
         if (fbheads != null && fbheads.size() > 0) {
@@ -201,6 +204,51 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
         }
         return Collections.emptyList();
     };
+
+    @Override
+    public void removedHead2(int heads) {
+        // 1. Передаем голову после регенерции, по нндексу в метод "removedHead2"
+        // 2. Задаем поток данных
+        // 3. Превращаем список голов в поток данных
+        // 4. Реализовать "пересборку" голов, средствами потоков данных (превратите список голов в поток данных
+        // 5. Для решения 4 задания:
+        // В предыдущей записи (о функциональных интерфейсах и лямбда-выражениях) предлагалось реализовать
+        // "пересборку" списка голов после регенерации (с использованием какой-либо удобной структуры данных).
+        // Реализуйте эту "пересборку" средствами потоков данных (превратите список голов в поток данных,
+        // примените к каждой голове процедуру регенерации, а после вновь соберите в список).
+
+//  как работал старый метод:
+//  объявляем все головы драконов в новом методе removedHead2 через переменную " heads", которая "protected int heads;"
+//  в родительском классе
+//  присваиваем объектам драконам метод регенерации голов2 - (dragon.removedHead2(0);)
+//  выводим на печать новое кол-во голов : (System.out.println("Новое кол-во голов =  " + dragon.getHeads());)
+//
+//  задаем условие: если конструктор регененрированных голов больше прежних голов то:
+//                  конструктор регененрированные головы меньше или равны значениям прежних голов
+//                  вызываем конструктор, "private" метода, добавления случайных голов (до 5 голов), который находится
+//   в родительском классе;
+//   Болеее подробно о методе "private void addRandomHeads(int maxHeads)":
+//   Создаем ссылку "rnd", объекта "Random" -     Random rnd = new Random();
+//   вызываем конструктор "addHeads"  для добавления голов, ссылка "rnd" указывает на
+//   чтение следующей головы : this.addHeads.apply(this.heads, rnd.nextInt(maxHeads));
+//   опять вызываем конструктор голов "heads" для получения случайного значения кол-ва голорв , которые нужно добавить
+//        this.heads += rnd.nextInt(maxHeads);
+//
+        int maxCOuntOHrsfd =  3;
+
+        Random rnd = new Random() ;
+        fbheads = fbheads.stream().flatMap(head -> {
+            List<FBHead> result = new ArrayList<>();
+            int headsCount = rnd.nextInt(maxCOuntOHrsfd);
+            for (int i =0; i <= headsCount;i++) {
+                FBHead newHead = new FBHead(14, 45);
+                result.add(newHead);
+            }
+            return result.stream();
+        } ).collect(Collectors.toList());
+        System.out.println("Новый список регенерированных голов = " + fbheads);
+
+    }
 
     public void removeHead() {
         if (fbheads == null || fbheads.size() == 0) {
