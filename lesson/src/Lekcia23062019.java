@@ -15,12 +15,12 @@ public class Lekcia23062019 {
                     return left;
                 });
         Arrays.stream(st).collect(infoSet).forEach(System.out::println);
-        // String s25 = st17.collect(Collector.joining(","));
+
         Person p = new Person("Samara", "Volkov");
         List<Person> people = Arrays.asList(new Person("", ""),
                 new Person("Samara", "Volkov"),
                 new Person("Samara", "Volkov"),
-                p, p,
+
                 new Person("Samara", "Popov"),
                 new Person("Tomsk", "Romanov"),
                 new Person("Ekaterinburg", "Romanov"));
@@ -31,6 +31,27 @@ public class Lekcia23062019 {
         System.out.println(namesByCity);
 
     }
+    static class Person {
+        String city;
+        String lastName;
+
+        public Person(String city, String lastName) {
+            this.city = city;
+            this.lastName = lastName;
+        }
+
+        public String getCity() {
+            return city;
+        }
+
+        public String getLastName() {
+            return lastName;
+        }
+    }
+}
+
+
+
 //    .reduce ()
 //    .collect (R,A) R collect (Collector <?super T,A,R> collector )
 //    <R> R collect (Supplier <R> supplier , BiConsumer <R,? super T > accumulator, BiConsumer  <R,R> combiner)
@@ -59,28 +80,12 @@ Collector.of (TreSet :: , new , TreeSet :: add, (left, right) -> {
     left.addofall (right);
     return left; } );*/
 
-    static class Person {
-        String city;
-        String lastName;
 
-        public Person(String city, String lastName) {
-            this.city = city;
-            this.lastName = lastName;
-        }
-
-        public String getCity() {
-            return city;
-        }
-
-        public String getLastName() {
-            return lastName;
-        }
+    // String s25 = st17.collect(Collector.joining(","));
 
 
-    }
 
 
-}
 
 
 

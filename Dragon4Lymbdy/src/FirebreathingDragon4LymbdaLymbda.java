@@ -159,7 +159,7 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
     }
 
 
-    public double getFullPower() {
+    public double getFullPower() {  // общая суммарная мощность
         double fullp = 0;
         for (FBHead fbh : fbheads) {
             fullp += fbh.firePower;
