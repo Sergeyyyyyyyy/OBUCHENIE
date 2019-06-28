@@ -1,3 +1,4 @@
+
 import java.util.*;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
@@ -194,6 +195,7 @@ public class TestclassStreamApi10dgagons {
 
     private static void zadanie7(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
         int p = 100; // заданная величина для сравнения суммарной огневой мощности голов  и получения такого дракона на печать
+        getMaxPowerPerHead
 
         FirebreathingDragon4LymbdaLymbda testDragon = newDragons.stream () {
             List<FirebreathingDragon4LymbdaLymbda> testDragon = newDragons.stream ()
@@ -211,3 +213,33 @@ public class TestclassStreamApi10dgagons {
 
 
 }
+
+//  Задание 8
+//С помощью метода reduce посчитайте количество драконов, у которых все головы имеют ненулевую огневую мощность.
+//Запишите решение, использующее версию метода с одним параметром и версию метода с двумя параметрами.
+private static void zadanie7(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
