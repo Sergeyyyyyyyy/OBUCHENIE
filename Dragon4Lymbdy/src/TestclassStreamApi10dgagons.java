@@ -3,13 +3,15 @@ import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import static com.sun.xml.internal.ws.client.ContentNegotiation.none;
+
 // для решения задач по СтримАпи
 public class TestclassStreamApi10dgagons {
 
     // к заданию № 3
     public static double rnd(int min, int max) {
         max -= min;
-        return (double) (Math.random () * ++max) + min;
+        return (double) (Math.random() * ++max) + min;
     }
 
     public static void main(String... args) {
@@ -20,44 +22,45 @@ public class TestclassStreamApi10dgagons {
         //long n1 = drags.filter ( s -> s.length () < 4 ).count ();
         //System.out.println ( n1 );
 
-        FirebreathingDragon4LymbdaLymbda drag5 = new FirebreathingDragon4LymbdaLymbda ( 35, 57, 56, 78, 7, 85 );
-        drag5.setHead ( 4, 51, 67 );
-        drag5.setName ( "RRRRRR" );
-        FirebreathingDragon4LymbdaLymbda drag6 = new FirebreathingDragon4LymbdaLymbda ( 53, 98, 8, 4, 8 );
-        drag6.setHead ( 3, 84, 23 );
-        drag6.setName ( "TTTTTTTTTTT" );
-        FirebreathingDragon4LymbdaLymbda drag7 = new FirebreathingDragon4LymbdaLymbda ( 23, 30, 2, 4, 8 );
-        drag7.setHead ( 2, 98, 44 );
-        drag7.setName ( "WWW" );
-        FirebreathingDragon4LymbdaLymbda drag8 = new FirebreathingDragon4LymbdaLymbda ( 66, 84, 11, 21, 1 );
-        drag8.setHead ( 3, 9, 41 );
-        drag8.setName ( "yyyyyy" );
-        FirebreathingDragon4LymbdaLymbda drag9 = new FirebreathingDragon4LymbdaLymbda ( 21, 28, 77, 88, 99, 14 );
-        drag9.setHead ( 4, 37, 27 );
-        drag9.setName ( "kkkkkkkkkkk" );
-        FirebreathingDragon4LymbdaLymbda drag10 = new FirebreathingDragon4LymbdaLymbda ( 88, 33, 48, 40, 48 );
-        drag10.setHead ( 3, 78, 35 );
-        drag10.setName ( "SSSSSSS" );
-        FirebreathingDragon4LymbdaLymbda drag12 = new FirebreathingDragon4LymbdaLymbda ( 68, 22, 98, 87, 98 );
-        drag12.setHead ( 2, 523, 98 );
-        drag12.setName ( "ZZZZZZZZZZZZ" );
-        FirebreathingDragon4LymbdaLymbda drag13 = new FirebreathingDragon4LymbdaLymbda ( 77, 11, 87, 65, 10, 54 );
-        drag13.setHead ( 4, 90, 56 );
-        drag13.setName ( "vvvvvvvvv" );
-        FirebreathingDragon4LymbdaLymbda drag14 = new FirebreathingDragon4LymbdaLymbda ( 99, 55, 45, 4, 15 );
-        drag14.setHead ( 2, 21, 95 );
-        drag14.setName ( "XXXXXXXXXXXXXXXXXPPPPPPPPP" );
-        FirebreathingDragon4LymbdaLymbda drag15 = new FirebreathingDragon4LymbdaLymbda ( 44, 20, 87, 6, 4 );
-        drag15.setHead ( 3, 41, 54 );
-        drag15.setName ( "POUYTREEWW" );
+        FirebreathingDragon4LymbdaLymbda drag5 = new FirebreathingDragon4LymbdaLymbda(35, 57, 56, 78, 7, 85);
+        drag5.setHead(4, 51, 67);
+        drag5.setName("RRRRRR");
+        FirebreathingDragon4LymbdaLymbda drag6 = new FirebreathingDragon4LymbdaLymbda(53, 98, 8, 4, 8);
+        drag6.setHead(3, 84, 23);
+        drag6.setName("TTTTTTTTTTT");
+        FirebreathingDragon4LymbdaLymbda drag7 = new FirebreathingDragon4LymbdaLymbda(23, 30, 2, 4, 8);
+        drag7.setHead(2, 98, 44);
+        drag7.setName("WWW");
+        FirebreathingDragon4LymbdaLymbda drag8 = new FirebreathingDragon4LymbdaLymbda(66, 84, 11, 21, 1);
+        drag8.setHead(3, 9, 41);
+        drag8.setName("yyyyyy");
+        FirebreathingDragon4LymbdaLymbda drag9 = new FirebreathingDragon4LymbdaLymbda(21, 28, 77, 88, 99, 14);
+        drag9.setHead(4, 37, 27);
+        drag9.setName("kkkkkkkkkkk");
+        FirebreathingDragon4LymbdaLymbda drag10 = new FirebreathingDragon4LymbdaLymbda(88, 33, 48, 40, 48);
+        drag10.setHead(3, 78, 35);
+        drag10.setName("SSSSSSS");
+        FirebreathingDragon4LymbdaLymbda drag12 = new FirebreathingDragon4LymbdaLymbda(68, 22, 98, 87, 98);
+        drag12.setHead(2, 523, 98);
+        drag12.setName("ZZZZZZZZZZZZ");
+        FirebreathingDragon4LymbdaLymbda drag13 = new FirebreathingDragon4LymbdaLymbda(77, 11, 87, 65, 10, 54);
+        drag13.setHead(4, 90, 56);
+        drag13.setName("vvvvvvvvv");
+        FirebreathingDragon4LymbdaLymbda drag14 = new FirebreathingDragon4LymbdaLymbda(99, 55, 45, 4, 15);
+        drag14.setHead(2, 21, 95);
+        drag14.setName("XXXXXXXXXXXXXXXXXPPPPPPPPP");
+        FirebreathingDragon4LymbdaLymbda drag15 = new FirebreathingDragon4LymbdaLymbda(44, 20, 87, 6, 4);
+        drag15.setHead(3, 41, 54);
+        drag15.setName("POUYTREEWW");
 
-        List<FirebreathingDragon4LymbdaLymbda> newDragons = Arrays.asList ( drag5, drag6, drag7, drag8, drag9, drag10, drag12, drag13, drag14, drag15 );
-        zadanie1ProverkaDragondsonHeads ( newDragons );
-        zadanie2SortirovkaDragondspoUbyvaniu ( newDragons );
-        zadanie3SortirovkaDragondspoMinMAx ( newDragons );
-        zadanie4PeresborkaSpiskagolovcherezPotokDannyh ( newDragons );
-        zadanie6 ( newDragons );
-        zadanie7 ( newDragons );
+        List<FirebreathingDragon4LymbdaLymbda> newDragons = Arrays.asList(drag5, drag6, drag7, drag8, drag9, drag10, drag12, drag13, drag14, drag15);
+        zadanie1ProverkaDragondsonHeads(newDragons);
+        zadanie2SortirovkaDragondspoUbyvaniu(newDragons);
+        zadanie3SortirovkaDragondspoMinMAx(newDragons);
+        zadanie4PeresborkaSpiskagolovcherezPotokDannyh(newDragons);
+        zadanie6(newDragons);
+        zadanie7(newDragons);
+        //zadanie8(newDragons);
     }
 
     // Задание 1  Проверка кол-во голов у новых драконов
@@ -66,12 +69,12 @@ public class TestclassStreamApi10dgagons {
         int minKolGolov = 4; // эквивалентно n1  по задаче
         int maxKolGolov = 4; // эквивалентно n2 по задаче
 
-        newDragons.stream ().filter ( dragon ->
-                dragon.getFbHeadsCount () >= minKolGolov && dragon.getFbHeadsCount () <= maxKolGolov )
-                .map ( dragon -> dragon.name )
-                .forEach ( dragonName -> {
-                    System.out.println ( dragonName );
-                } );
+        newDragons.stream().filter(dragon ->
+                dragon.getFbHeadsCount() >= minKolGolov && dragon.getFbHeadsCount() <= maxKolGolov)
+                .map(dragon -> dragon.name)
+                .forEach(dragonName -> {
+                    System.out.println(dragonName);
+                });
     }
 
 
@@ -83,17 +86,17 @@ public class TestclassStreamApi10dgagons {
 
         //int PromejutochnayFiltracia;
 
-        List<FirebreathingDragon4LymbdaLymbda> tmp = newDragons.stream ().sorted (
-                (x, y) -> ((Double) x.getFullPower ()).compareTo ( y.getFullPower () )
+        List<FirebreathingDragon4LymbdaLymbda> tmp = newDragons.stream().sorted(
+                (x, y) -> ((Double) x.getFullPower()).compareTo(y.getFullPower())
         )
-                .collect ( Collectors.toList () );
+                .collect(Collectors.toList());
 //                .forEach(dragon -> {
 //                    System.out.println(dragon + ",getFullPower = " + dragon.getFullPower());
 //                })
         ;
 
-        for (int i = 0; i < Math.min ( firstN, tmp.size () ); i++) {
-            System.out.println ( tmp.get ( i ) + ",getFullPower = " + tmp.get ( i ).getFullPower () );
+        for (int i = 0; i < Math.min(firstN, tmp.size()); i++) {
+            System.out.println(tmp.get(i) + ",getFullPower = " + tmp.get(i).getFullPower());
         }
     }
 
@@ -107,27 +110,27 @@ public class TestclassStreamApi10dgagons {
         final int maxB = 1000; // Максимальное число для диапазона
 
 
-        List<FirebreathingDragon4LymbdaLymbda> tmp = newDragons.stream ()
-                .filter ( dragon -> dragon.getMaxPowerPerHead () <= polnayaVelichina )  // кол-во драконов почему-то - 0
-                .map ( dragon -> {
+        List<FirebreathingDragon4LymbdaLymbda> tmp = newDragons.stream()
+                .filter(dragon -> dragon.getMaxPowerPerHead() <= polnayaVelichina)  // кол-во драконов почему-то - 0
+                .map(dragon -> {
                     // в условие вставили "getFbHeadsCount" вместо "polnayaVelichina"
-                    for (int i = 0; i < dragon.getFbHeadsCount (); i++) {
-                        FirebreathingDragon4LymbdaLymbda.FBHead head = dragon.getHead ( i );
-                        head.setFirePower ( head.getFirePower () + rnd ( minA, maxB ) );
+                    for (int i = 0; i < dragon.getFbHeadsCount(); i++) {
+                        FirebreathingDragon4LymbdaLymbda.FBHead head = dragon.getHead(i);
+                        head.setFirePower(head.getFirePower() + rnd(minA, maxB));
                     }
                     return dragon;
-                } )
+                })
 // отбрасываем 1 и последнего дракона
 //                .skip ( 1 )
 //                .limit ( newDragons.size () - 2 )
-                .sorted (
-                        (x, y) -> ((Double) x.getPowerPerHead ()).compareTo ( y.getPowerPerHead () )
+                .sorted(
+                        (x, y) -> ((Double) x.getPowerPerHead()).compareTo(y.getPowerPerHead())
                 )
-                .collect ( Collectors.toList () );
+                .collect(Collectors.toList());
 // Вывод полной мощности дракона , средней  огневой мощности,приходящейся на голову.
         for (
-                int i = 1; i < (tmp.size () - 1); i++) {
-            System.out.println ( tmp.get ( i ) + " ,getFullPower = " + tmp.get ( i ).getFullPower () + " ,getPowerPerHead = " + tmp.get ( i ).getPowerPerHead () );
+                int i = 1; i < (tmp.size() - 1); i++) {
+            System.out.println(tmp.get(i) + " ,getFullPower = " + tmp.get(i).getFullPower() + " ,getPowerPerHead = " + tmp.get(i).getPowerPerHead());
         }
 
     }
@@ -142,25 +145,25 @@ public class TestclassStreamApi10dgagons {
 
         int minKolGolov = 0;
         int maxKolGolov = 100;
-        newDragons.stream ().filter ( dragon ->
-                dragon.getFbHeadsCount () >= minKolGolov && dragon.getFbHeadsCount () <= maxKolGolov )
-                .map ( dragon -> dragon.name )
-                .forEach ( dragonName -> {
-                    System.out.println ( dragonName );
-                } );
+        newDragons.stream().filter(dragon ->
+                dragon.getFbHeadsCount() >= minKolGolov && dragon.getFbHeadsCount() <= maxKolGolov)
+                .map(dragon -> dragon.name)
+                .forEach(dragonName -> {
+                    System.out.println(dragonName);
+                });
 
         Function<Integer, List<FirebreathingDragon4LymbdaLymbda.FBHead>> addRandomFbHeads = (Integer maxKolHeads) -> {
-            Random rnd = new Random ();
-            int kolHeads = rnd.nextInt ( maxKolHeads );
+            Random rnd = new Random();
+            int kolHeads = rnd.nextInt(maxKolHeads);
             if (kolHeads > 0) {
-                List<FirebreathingDragon4LymbdaLymbda.FBHead> newHeads = new ArrayList<> ( kolHeads );
-                while (newHeads.size () < kolHeads) {
-                    newHeads.add ( new FirebreathingDragon4LymbdaLymbda.FBHead ( rnd.nextDouble () * 10,
-                            rnd.nextInt ( 100 ) + 1 ) );
+                List<FirebreathingDragon4LymbdaLymbda.FBHead> newHeads = new ArrayList<>(kolHeads);
+                while (newHeads.size() < kolHeads) {
+                    newHeads.add(new FirebreathingDragon4LymbdaLymbda.FBHead(rnd.nextDouble() * 10,
+                            rnd.nextInt(100) + 1));
                 }
                 return newHeads;
             }
-            return Collections.emptyList ();
+            return Collections.emptyList();
         };
 
     }
@@ -170,44 +173,76 @@ public class TestclassStreamApi10dgagons {
     // Используйте метод max (min).
 
     private static void zadanie6(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
-        FirebreathingDragon4LymbdaLymbda minDragon = newDragons.stream ()
-                .min ( (dragon, dragon2) -> {
-                    return dragon.getPowerPerHead () > dragon2.getPowerPerHead () ? 1 :
-                            dragon.getPowerPerHead () < dragon2.getPowerPerHead () ? -1 : 0;
-                } ).get ();
-        FirebreathingDragon4LymbdaLymbda maxDragon = newDragons.stream ()
-                .max ( (dragon, dragon2) -> {
-                    return dragon.getPowerPerHead () > dragon2.getPowerPerHead () ? 1 :
-                            dragon.getPowerPerHead () < dragon2.getPowerPerHead () ? -1 : 0;
-                } ).get ();
+        FirebreathingDragon4LymbdaLymbda minDragon = newDragons.stream()
+                .min((dragon, dragon2) -> {
+                    return dragon.getPowerPerHead() > dragon2.getPowerPerHead() ? 1 :
+                            dragon.getPowerPerHead() < dragon2.getPowerPerHead() ? -1 : 0;
+                }).get();
+        FirebreathingDragon4LymbdaLymbda maxDragon = newDragons.stream()
+                .max((dragon, dragon2) -> {
+                    return dragon.getPowerPerHead() > dragon2.getPowerPerHead() ? 1 :
+                            dragon.getPowerPerHead() < dragon2.getPowerPerHead() ? -1 : 0;
+                }).get();
 
-        System.out.println ( "Min power dragon: " + minDragon.getName () );
-        System.out.println ( "Max power dragon: " + maxDragon.getName () );
+        System.out.println("Min power dragon: " + minDragon.getName());
+        System.out.println("Max power dragon: " + maxDragon.getName());
     }
 
 
     //  Задание 7
 //  Используя методы anyMatch, noneMatch и allMatch (соответственно), определите:
-//есть ли в потоке такой дракон,суммарная огневая мощность голов  которого больше заранее заданной величины p;
-//верно ли, что в потоке драконов нет ни одного, у которого нулевая суммарная огневая мощность голов;
-//верно ли, что каждый дракон в потоке имеет среднюю огневую мощность голов, не меньшую заранее заданной величины ap.
+//1) есть ли в потоке такой дракон,суммарная огневая мощность голов  которого больше заранее заданной величины p;
+//2) верно ли, что в потоке драконов нет ни одного, у которого нулевая суммарная огневая мощность голов;
+//3) верно ли, что каждый дракон в потоке имеет среднюю огневую мощность голов, не меньшую заранее заданной величины ap.
+
 
     private static void zadanie7(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
         int p = 100; // заданная величина для сравнения суммарной огневой мощности голов  и получения такого дракона на печать
 
-        FirebreathingDragon4LymbdaLymbda testDragon = newDragons.stream () {
-            List<FirebreathingDragon4LymbdaLymbda> testDragon = newDragons.stream ()
-                    .min ( (testDragon -> {
-                        return testDragon.getFullPower () > testDragon.getPowerPerHead () ? 1 :
-                                testDragon.getPowerPerHead () < testDragon.getPowerPerHead () ? -1 : 0;
-                    }).get ();
+// Решение
+// Создаем тестовый класс testDragon ,связываем его с существующим потоком  newDragons.stream()
+// Создаем новый список отсортированных драконов
+// Присваиваем созданный тестовый класс  testDragon к новому списку отсортированных голов
+// Проверяем, есть ли в потоке дракон дракон,суммарная огневая мощность голов  которого больше заранее заданной величины p
+// используя метод anyMatch
+// используя метод noneMatch
+// используя метод  allMatch
+// Вывод на экран результатов всех 3-х сравнений
 
+        FirebreathingDragon4LymbdaLymbda testDragon = newDragons.stream().findAny().orElse(null);
+        {
+            //       ArrayList<FirebreathingDragon4LymbdaLymbda> testDragon = newDragons.stream()
+            boolean any = newDragons.stream().anyMatch(s -> s.getFullPower() > p);
 
-            System.out.println ( "У данного дракона getFullPower > p: " + testDragon.getName () );
-            System.out.println ( "Дракон, getFullPower = 0: " +.getName () );
-            System.out.println ( "Каждый ли Дракон, getPowerPerHead > ap: " +.getName () );
+            boolean all = newDragons.stream().allMatch(s -> s.getFullPower() == p && p == 0);
+
+            boolean none = newDragons.stream().noneMatch(s -> s.getPowerPerHead() == p);
+
+            System.out.println("У данного дракона getFullPower > p: " + testDragon.getFullPower());
+            System.out.println("Дракон, getFullPower = 0: " + testDragon.getFullPower());
+            System.out.println("Каждый ли Дракон, getPowerPerHead > p: " + testDragon.getPowerPerHead());
         }
     }
 
 
+// Задание 8
+// С помощью метода reduce посчитайте количество драконов, у которых все головы имеют ненулевую огневую мощность.
+// Запишите решение, использующее версию метода с одним параметром и версию метода с двумя параметрами.
+
+    private static void zadanie8(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
+
+// Решение
+// Создаем тестовый класс testDragon ,связываем его с существующим потоком  newDragons.stream()
+// Создаем новый список отсортированных драконов
+// Присваиваем созданный тестовый класс  testDragon к новому списку отсортированных голов
+// Проверяем через условие, есть ли в потоке дракон, у которых все головы имеют ненулевую огневую мощность.
+// fbheads == 0
+// через метод с одним параметром
+// через метод с двумя параметрами
+// Вывод на экран результата всех 2-х сравнений
+
+
+//    }
+
+    }
 }
