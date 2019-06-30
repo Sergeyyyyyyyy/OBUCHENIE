@@ -213,16 +213,17 @@ public class TestclassStreamApi10dgagons {
 
         FirebreathingDragon4LymbdaLymbda testDragon = newDragons.stream().findAny().orElse(null);
         {
+
             //       ArrayList<FirebreathingDragon4LymbdaLymbda> testDragon = newDragons.stream()
             boolean any = newDragons.stream().anyMatch(s -> s.getFullPower() > p);
 
-            boolean all = newDragons.stream().allMatch(s -> s.getFullPower() == p && p == 0);
+            boolean all = newDragons.stream().allMatch(s -> s.getFullPower() > 0);
 
-            boolean none = newDragons.stream().noneMatch(s -> s.getPowerPerHead() == p);
+            boolean none = newDragons.stream().noneMatch(s -> s.getPowerPerHead() < p);
 
-//            System.out.println("У данного дракона getFullPower > p: " + testDragon.getFullPower());
-//            System.out.println("Дракон, getFullPower = 0: " + testDragon.getFullPower());
-//            System.out.println("Каждый ли Дракон, getPowerPerHead > p: " + testDragon.getPowerPerHead());
+            System.out.println("У какого-либо дракона getFullPower > p: " + any);
+            System.out.println("нет ни одного, у которого нулевая суммарная огневая мощность голов: " + all);
+            System.out.println("Каждый ли Дракон, getPowerPerHead > p: " + none);
         }
     }
 

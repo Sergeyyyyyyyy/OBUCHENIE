@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26779cb0-a2c0-425a-8097-025b93ca8674" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dragon4Lymbdy/src/Lekcia3006.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragon4Lymbdy/src/LekciaGeneriki.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragon4Lymbdy/src/Lesson300619.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dragon4Lymbdy/src/Lesson3006199999.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson/src/Generics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dragon4Lymbdy/src/TestclassStreamApi10dgagons.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dragon4Lymbdy/src/TestclassStreamApi10dgagons.java" afterDir="false" />
     </list>
@@ -17,12 +22,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/TestclassStreamApi10dgagons.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="257" column="7" lean-forward="true" selection-start-line="257" selection-start-column="7" selection-end-line="257" selection-end-column="7" />
+            <state relative-caret-position="244">
+              <caret line="225" column="79" selection-start-line="225" selection-start-column="79" selection-end-line="225" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,19 +36,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/Predicate.java">
+        <entry file="file://$PROJECT_DIR$/lesson/src/Generics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            <state relative-caret-position="294">
+              <caret line="100" column="22" lean-forward="true" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#2036#2037#0" expanded="true" />
+                <element signature="e#2074#2075#0" expanded="true" />
+                <element signature="e#1540#1541#0" expanded="true" />
+                <element signature="e#1576#1577#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/Predicate.java">
+        <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/Testclass4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            <state relative-caret-position="408">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,29 +70,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="56" column="29" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/Dragon4lymbda.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+            <state relative-caret-position="170">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson/src/Lekcia23062019.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -125,6 +126,7 @@
         <option value="$PROJECT_DIR$/Пример/src/Someclass.java" />
         <option value="$PROJECT_DIR$/Dragon4Lymbdy/src/Dragon4lymbda.java" />
         <option value="$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java" />
+        <option value="$PROJECT_DIR$/lesson/src/Generics.java" />
         <option value="$PROJECT_DIR$/Dragon4Lymbdy/src/TestclassStreamApi10dgagons.java" />
       </list>
     </option>
@@ -134,7 +136,7 @@
     <option name="width" value="807" />
     <option name="height" value="991" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -143,6 +145,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,49 +167,6 @@
             <path>
               <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
               <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Dragon4Lymbdy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Dragon4lymbda" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Dragon4Lymbdy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FirebreathingDragon4LymbdaLymbda" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Dragon4Lymbdy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FirebreathingDragon4LymbdaLymbda" type="1a9f42e2:ClassTreeNode" />
-              <item name="FBHead" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Dragon4Lymbdy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Predicate" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Dragon4Lymbdy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Testclass4" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Dragon4Lymbdy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TestclassStreamApi10dgagons" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
               <item name="lesson" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -218,13 +178,6 @@
             <path>
               <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
               <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lekcia23062019" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
               <item name="Пример" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -232,13 +185,6 @@
               <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
               <item name="Пример" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Пример" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Stepic_2_2_9" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
@@ -278,22 +224,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
               <item name="function" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
-              <item name="Predicate" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -326,6 +261,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.TestclassStreamApi10dgagons">
+    <configuration name="Generics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics" />
+      <module name="lesson" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SomeClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SomeClass" />
       <module name="Пример" />
@@ -335,13 +277,6 @@
     </configuration>
     <configuration name="Someclass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Someclass" />
-      <module name="Пример" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Someclass4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Someclass4" />
       <module name="Пример" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -364,10 +299,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestclassStreamApi10dgagons" />
+        <item itemvalue="Application.Generics" />
         <item itemvalue="Application.Testclass4" />
         <item itemvalue="Application.SomeClass" />
         <item itemvalue="Application.Someclass" />
-        <item itemvalue="Application.Someclass4" />
       </list>
     </recent_temporary>
   </component>
@@ -423,10 +358,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.028317152" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25113463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -435,15 +369,15 @@
       <window_info id="Repositories" order="6" weight="0.32972974" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.10677382" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19146483" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.10677382" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36988544" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295063" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.33794695" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.2913257" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.23306544" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3295063" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Maven" order="1" />
@@ -640,19 +574,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Пример/src/Someclass2.java" />
-    <entry file="file://$PROJECT_DIR$/Пример/src/SomeClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="e#187#614#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#636#871#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Пример/src/SomeClass.java" />
     <entry file="file://$PROJECT_DIR$/Пример/src/TestclassStreamApi10dgagons.java" />
     <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/BinaryOperator.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -671,16 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/Testclass4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/Dragon4lymbda.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -693,15 +605,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson/src/Lekcia23062019.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="56" column="29" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="31" />
+        <state relative-caret-position="102">
+          <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -712,17 +620,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/Predicate.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/Predicate.java" />
+    <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/Testclass4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        <state relative-caret-position="408">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson/src/Generics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="100" column="22" lean-forward="true" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#2036#2037#0" expanded="true" />
+            <element signature="e#2074#2075#0" expanded="true" />
+            <element signature="e#1540#1541#0" expanded="true" />
+            <element signature="e#1576#1577#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/TestclassStreamApi10dgagons.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="257" column="7" lean-forward="true" selection-start-line="257" selection-start-column="7" selection-end-line="257" selection-end-column="7" />
+        <state relative-caret-position="244">
+          <caret line="225" column="79" selection-start-line="225" selection-start-column="79" selection-end-line="225" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
