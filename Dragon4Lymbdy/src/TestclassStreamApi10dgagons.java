@@ -232,7 +232,7 @@ public class TestclassStreamApi10dgagons {
     private static void zadanie8(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
 
 // Решение
-// Создаем тестовый класс testDragon ,связываем его с существующим потоком  newDragons.stream()
+// Создаем переменную testDragon ,связываем его с существующим потоком  newDragons.stream()
 // Создаем новый список отсортированных драконов
 // Присваиваем созданный тестовый класс  testDragon к новому списку отсортированных голов
 // Проверяем через условие, есть ли в потоке дракон, у которых все головы имеют ненулевую огневую мощность.
@@ -242,7 +242,45 @@ public class TestclassStreamApi10dgagons {
 // Вывод на экран результата всех 2-х сравнений
 
 
+        int testDragon; // количество драконов, у которых все головы имеют ненулевую огневую мощность.
+        newDragons.stream()
+                .filter(drag -> drag.getFullPower() != 0 )
+                .reduce (x,y);
+        map(drag -> {
+            if (drag.<getFullPower() != 0> == drag.<getFullPower() == 0>) {
+                return 1;
+            } else {
+                return 0;
+            }}).reduce((x, y) -> x+y)
+
+
+
 //    }
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
