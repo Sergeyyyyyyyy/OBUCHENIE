@@ -22,8 +22,8 @@ public class TestclassStreamApi10dgagons {
         //long n1 = drags.filter ( s -> s.length () < 4 ).count ();
         //System.out.println ( n1 );
 
-        FirebreathingDragon4LymbdaLymbda drag5 = new FirebreathingDragon4LymbdaLymbda(35, 57, 56, 78, 7, 85);
-        drag5.setHead(4, 51, 67);
+        FirebreathingDragon4LymbdaLymbda drag5 = new FirebreathingDragon4LymbdaLymbda(0, 0, 0, 0, 0, 0);
+        drag5.setHead(0, 0, 0);
         drag5.setName("RRRRRR");
         FirebreathingDragon4LymbdaLymbda drag6 = new FirebreathingDragon4LymbdaLymbda(53, 98, 8, 4, 8);
         drag6.setHead(3, 84, 23);
@@ -60,7 +60,9 @@ public class TestclassStreamApi10dgagons {
         zadanie4PeresborkaSpiskagolovcherezPotokDannyh(newDragons);
         zadanie6(newDragons);
         zadanie7(newDragons);
-        //zadanie8(newDragons);
+
+        newDragons.get(0).getFbheads().get(0).setFirePower(0); // изменяю тестовые данные
+        zadanie8(newDragons); // изменяю тестовые данные
     }
 
     // Задание 1  Проверка кол-во голов у новых драконов
@@ -218,9 +220,9 @@ public class TestclassStreamApi10dgagons {
 
             boolean none = newDragons.stream().noneMatch(s -> s.getPowerPerHead() == p);
 
-            System.out.println("У данного дракона getFullPower > p: " + testDragon.getFullPower());
-            System.out.println("Дракон, getFullPower = 0: " + testDragon.getFullPower());
-            System.out.println("Каждый ли Дракон, getPowerPerHead > p: " + testDragon.getPowerPerHead());
+//            System.out.println("У данного дракона getFullPower > p: " + testDragon.getFullPower());
+//            System.out.println("Дракон, getFullPower = 0: " + testDragon.getFullPower());
+//            System.out.println("Каждый ли Дракон, getPowerPerHead > p: " + testDragon.getPowerPerHead());
         }
     }
 
@@ -243,17 +245,21 @@ public class TestclassStreamApi10dgagons {
 
 
         int testDragon; // количество драконов, у которых все головы имеют ненулевую огневую мощность.
-        newDragons.stream()
-                .filter(drag -> drag.getFullPower() != 0 )
-                .reduce (x,y);
-        map(drag -> {
-            if (drag.<getFullPower() != 0> == drag.<getFullPower() == 0>) {
-                return 1;
-            } else {
-                return 0;
-            }}).reduce((x, y) -> x+y)
+        testDragon = newDragons.stream()
+                .map(drag -> {
+                    int headsNonZeroPerower = (int) drag.getFbheads().stream()
+                            .filter(head -> head.getFirePower() != 0).count();
+                    if (headsNonZeroPerower == drag.getFbHeadsCount()) {
+                        return 1;
+                    } else {
+                        return 0;
+                    }
+                })
+                .reduce((x, y) -> x + y)
+                .orElse(0)
+        ;
 
-
+        System.out.println("Драконы, которые имеют ненулевую огневую мощность =  " + testDragon);
 
 //    }
 

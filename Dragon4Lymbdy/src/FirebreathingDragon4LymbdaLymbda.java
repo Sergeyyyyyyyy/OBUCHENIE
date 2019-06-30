@@ -178,7 +178,7 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
     }
 
     public int getFbHeadsCount() {
-        return fbheads != null ? fbheads.size() : 10;
+        return fbheads != null ? fbheads.size() : 7;
     }
 
     public void printActiveHeads() {
@@ -258,8 +258,10 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
         Random rnd = new Random();
         int removeHeadIndex = rnd.nextInt(fbheads.size());
         fbheads.remove(removeHeadIndex);
-        fbheads.addAll(removeHeadIndex, this.addRandomFbHeads.apply(10));
+        fbheads.addAll(removeHeadIndex, this.addRandomFbHeads.apply(7));
     }
 
-
+    public List<FBHead> getFbheads() {
+        return fbheads;
+    }
 }
