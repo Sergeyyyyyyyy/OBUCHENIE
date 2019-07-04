@@ -8,6 +8,8 @@ import static com.sun.xml.internal.ws.client.ContentNegotiation.none;
 // для решения задач по СтримАпи
 public class TestclassStreamApi10dgagons {
 
+    private static Object String;
+
     // к заданию № 3
     public static double rnd(int min, int max) {
         max -= min;
@@ -63,6 +65,9 @@ public class TestclassStreamApi10dgagons {
 
         newDragons.get(0).getFbheads().get(0).setFirePower(0); // изменяю тестовые данные
         zadanie8(newDragons); // изменяю тестовые данные
+        zadanie9(newDragons);
+        zadanie10(newDragons);
+        zadanie11(newDragons);
     }
 
     // Задание 1  Проверка кол-во голов у новых драконов
@@ -265,7 +270,69 @@ public class TestclassStreamApi10dgagons {
 //    }
 
     }
-}
+// Задание 9
+// Используя метод reduce, найдите в потоке дракона, у которого минимальная разность между максимальной огневой
+// мощностью головы и минимальной огневой мощностью головы. Очень желательно использовать версию метода
+//// с тремя параметрами.
+
+    private static void zadanie9(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
+
+
+// Решение
+// Создаем тестовый класс testDragon ,связываем его с существующим потоком  newDragons.stream()
+// Создаем новый список отсортированных драконов
+// Присваиваем созданный тестовый класс  testDragon к новому списку отсортированных голов
+
+
+    }
+
+
+//Задание 10
+//Используя метод reduce, получите строку, состоящую из имён драконов, перечисленных через запятую.
+// Имя дракона следует включать в строку только в том случае, если в нём отсутствует заранее заданный символ.
+// Очень желательно использовать версию метода с тремя параметрами. Использование регулярных выражений приветствуется.
+
+    private static void zadanie10(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
+
+        String stroka = "q";
+        /*
+        U = строка
+        T - дракон
+
+СТРОКА reduce(СТРОКА identity,
+	 BiFunction<СТРОКА,? super ДРАКОН,СТРОКА> accumulator,
+	 BinaryOperator<СТРОКА> combiner)
+
+         */
+        String dragonNames = newDragons.stream().reduce("" ,
+                (laststring,dragon)-> laststring + (dragon.getName().contains(stroka) ? "":
+                        "," + dragon.getName()),
+                (name1,name2) -> name1 + "," + name2);
+
+
+        System.out.println("Драконы : " + dragonNames);/// dragonName;
+    }
+
+//    //Задание 11
+//    Используя метод summing, посчитайте суммарную огневую мощь драконов в потоке.
+
+    private static void zadanie11(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
+        /*
+items.stream()
+  .mapToInt(x -> x.getPrice())
+  .sum();
+         */
+        double sumHeadpower = newDragons.stream()
+                .mapToDouble(x -> {
+                    System.out.println ("Cуммарная мощность каждой головы - " + x.getFullPower());
+                    return x.getFullPower();
+                } )
+                .sum();
+
+
+        System.out.println("Cуммарная огневая мощь драконов : "   + sumHeadpower);
+    }
+    }
 
 
 
