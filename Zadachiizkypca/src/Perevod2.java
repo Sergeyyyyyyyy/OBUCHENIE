@@ -17,7 +17,7 @@ public class Perevod2 {
     int unknownwordsCount;
     Set<String> uknowswords = new HashSet<> ();
 
-    Scanning() {
+    Perevod2() {
         Scanner sc = new Scanner ( System.in );
         int allWordsCount = sc.nextInt ();
         int knownwordsCount = sc.nextInt ();

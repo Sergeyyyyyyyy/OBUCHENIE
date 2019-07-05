@@ -172,6 +172,15 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
 
     }
 
+    public double getMinPowerPerHead() {
+        double minHeadpower = 0;
+        for (FBHead fbh : fbheads) {
+            minHeadpower = Math.min(minHeadpower,fbh.firePower);
+        }
+        return minHeadpower;
+
+    }
+
 
     public double getFullPower() {  // общая суммарная мощность
         double fullp = 0;

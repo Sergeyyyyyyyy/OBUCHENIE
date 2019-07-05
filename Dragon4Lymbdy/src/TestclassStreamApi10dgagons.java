@@ -533,10 +533,10 @@ items.stream()
         }
     }
     static class DrugieMalenkyeBukvException extends RuntimeException {
-    public DrugieMalenkyeBukvException() {
-        super("в качестве символов используются маленькие буквы вместо заглавных");
+        public DrugieMalenkyeBukvException() {
+            super("в качестве символов используются маленькие буквы вместо заглавных");
+        }
     }
-}
 
     static class DrugoySimvolException extends RuntimeException {
         public DrugoySimvolException() {
@@ -617,7 +617,6 @@ items.stream()
         }
     }
 }
-
 
 
 
