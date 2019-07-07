@@ -35,7 +35,10 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
             return firePower;
         }
 
-        void setFirePower(double fp) {
+        public void setFirePower(double fp) {
+            if (fp < 0) {
+                throw new IllegalArgumentException("fp is " + fp + ", but expected to be >=0");
+            }
             firePower = fp;
         }
 
@@ -152,7 +155,7 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
     public double getMaxPowerPerHead() {
         double maxHeadpower = 0;
         for (FBHead fbh : fbheads) {
-            maxHeadpower = Math.max(maxHeadpower,fbh.firePower);
+            maxHeadpower = Math.max(maxHeadpower, fbh.firePower);
         }
         return maxHeadpower;
 
@@ -234,18 +237,18 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
 //   опять вызываем конструктор голов "heads" для получения случайного значения кол-ва голорв , которые нужно добавить
 //        this.heads += rnd.nextInt(maxHeads);
 //
-        int maxCOuntOHrsfd =  3;
+        int maxCOuntOHrsfd = 3;
 
-        Random rnd = new Random() ;
+        Random rnd = new Random();
         fbheads = fbheads.stream().flatMap(head -> {
             List<FBHead> result = new ArrayList<>();
             int headsCount = rnd.nextInt(maxCOuntOHrsfd);
-            for (int i =0; i <= headsCount;i++) {
+            for (int i = 0; i <= headsCount; i++) {
                 FBHead newHead = new FBHead(14, 45);
                 result.add(newHead);
             }
             return result.stream();
-        } ).collect(Collectors.toList());
+        }).collect(Collectors.toList());
         System.out.println("Новый список регенерированных голов = " + fbheads);
 
     }

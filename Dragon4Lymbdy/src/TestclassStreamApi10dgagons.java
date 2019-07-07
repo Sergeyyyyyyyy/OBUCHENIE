@@ -68,6 +68,7 @@ public class TestclassStreamApi10dgagons {
         zadanie9(newDragons);
         zadanie10(newDragons);
         zadanie11(newDragons);
+        usediskluchenii();
     }
 
     // Задание 1  Проверка кол-во голов у новых драконов
@@ -304,10 +305,10 @@ public class TestclassStreamApi10dgagons {
 	 BinaryOperator<СТРОКА> combiner)
 
          */
-        String dragonNames = newDragons.stream().reduce("" ,
-                (laststring,dragon)-> laststring + (dragon.getName().contains(stroka) ? "":
+        String dragonNames = newDragons.stream().reduce("",
+                (laststring, dragon) -> laststring + (dragon.getName().contains(stroka) ? "" :
                         "," + dragon.getName()),
-                (name1,name2) -> name1 + "," + name2);
+                (name1, name2) -> name1 + "," + name2);
 
 
         System.out.println("Драконы : " + dragonNames);/// dragonName;
@@ -324,16 +325,38 @@ items.stream()
          */
         double sumHeadpower = newDragons.stream()
                 .mapToDouble(x -> {
-                    System.out.println ("Cуммарная мощность каждой головы - " + x.getFullPower());
+                    System.out.println("Cуммарная мощность каждой головы - " + x.getFullPower());
                     return x.getFullPower();
-                } )
+                })
                 .sum();
 
 
-        System.out.println("Cуммарная огневая мощь драконов : "   + sumHeadpower);
-    }
+        System.out.println("Cуммарная огневая мощь драконов : " + sumHeadpower);
     }
 
+    // Использование исключений
+    private static void usediskluchenii() {
+//    class proverkagetPowerPerHeadException extends Exception {
+//
+//            public TimeParseException(String msg){
+//            super(msg);
+//
+//
+//    try{
+//        void getPowerPerHead  = new PrintWriter(new FileWriter("result.txt"));
+//        for(int i=0;i<SIZE; i++){
+//            out.println("a["i+" ]"+a.get(i));
+//        }
+//    }
+//    catch(IndexOutOfBoundsException e)
+     FirebreathingDragon4LymbdaLymbda d = new FirebreathingDragon4LymbdaLymbda("name",1);
+     try   {
+         d.setPowerPerHead(-1);
+     }catch (Exception e){
+         System.err.println(e);
+     }
+    }
+}
 
 
 

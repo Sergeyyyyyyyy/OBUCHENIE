@@ -76,10 +76,10 @@ public class Generics {
     //     |    нельзя
     //   ArrayList <String>
 
-    void process(List<? extends MyClass> lst) {
-        (List < ? > lst)
-        (List<? super MyAnotherClass) lst )
-    }
+//    void process(List<? extends MyClass> lst) {
+//        (List < ? > lst)
+//        (List<? super MyAnotherClass) lst )
+//    }
 }
 
 //     <ist<?>
