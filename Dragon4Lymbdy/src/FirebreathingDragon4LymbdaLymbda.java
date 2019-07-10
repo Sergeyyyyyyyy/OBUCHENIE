@@ -16,6 +16,10 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
         return wings;
     }
 
+    public double getMinPowerPerHead() {
+        return 0;
+    }
+
     // Для 5 задачи
     public static class FBHead {
 
@@ -151,6 +155,9 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
     public double getPowerPerHead() {
         return getFullPower() / getHeads();
     }
+
+     public double  getMinPowerPerHead ;
+    public double  getMaxPowerPerHead ;
 
     public double getMaxPowerPerHead() {
         double maxHeadpower = 0;

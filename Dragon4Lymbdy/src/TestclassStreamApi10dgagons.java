@@ -67,9 +67,12 @@ public class TestclassStreamApi10dgagons {
         zadanie8(newDragons); // изменяю тестовые данные
         zadanie9(newDragons);
         zadanie10(newDragons);
-        zadanie11(newDragons);
+        zadanie12(newDragons);
+        zadanie13(newDragons);
+        zadanie14(newDragons);
         usediskluchenii();
     }
+
 
     // Задание 1  Проверка кол-во голов у новых драконов
     private static void zadanie1ProverkaDragondsonHeads(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
@@ -278,13 +281,18 @@ public class TestclassStreamApi10dgagons {
 
     private static void zadanie9(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
 
+        FirebreathingDragon4LymbdaLymbda result = newDragons.stream().reduce(newDragons.get(0),
+                (prevDragon, nextDragon) -> {
+                    double delta1 = prevDragon.getMaxPowerPerHead() - prevDragon.getMinPowerPerHead();
+                    double delta2 = nextDragon.getMaxPowerPerHead() - nextDragon.getMinPowerPerHead();
+                    return delta2 < delta1 ? nextDragon : prevDragon;
+                }, (resDragon, dragon) -> {
+                    double delta1 = resDragon.getMaxPowerPerHead() - resDragon.getMinPowerPerHead();
+                    double delta2 = dragon.getMaxPowerPerHead() - dragon.getMinPowerPerHead();
+                    return delta2 < delta1 ? dragon : resDragon;
+                });
 
-// Решение
-// Создаем тестовый класс testDragon ,связываем его с существующим потоком  newDragons.stream()
-// Создаем новый список отсортированных драконов
-// Присваиваем созданный тестовый класс  testDragon к новому списку отсортированных голов
-
-
+        System.out.println("Дракон с минимальной разницей мощности: " + result.getName());
     }
 
 
@@ -349,14 +357,45 @@ items.stream()
 //        }
 //    }
 //    catch(IndexOutOfBoundsException e)
-     FirebreathingDragon4LymbdaLymbda d = new FirebreathingDragon4LymbdaLymbda("name",1);
-     try   {
-         d.setPowerPerHead(-1);
-     }catch (Exception e){
-         System.err.println(e);
-     }
+        FirebreathingDragon4LymbdaLymbda d = new FirebreathingDragon4LymbdaLymbda("name", 1);
+        try {
+            d.setPowerPerHead(-1);
+        } catch (Exception e) {
+            System.err.println(e);
+        }
     }
+
+
+    // Задание 12
+    // Используя метод partitionBy, разделите поток драконов на тех, у кого суммарная огневая мощность голов
+    // не превосходит некоторого заранее заданного значения PH,
+    // и тех, у кого суммарная огневая мощность голов больше этого значения.
+
+    private static void zadanie12(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
+        int PH = 10;
+
+    }
+
+ // Задание 13
+// Используя метод groupingBy, разделите поток драконов по количеству голов; драконы с одинаковым количеством голов
+// должны быть упорядочены по количеству крыльев.
+    private static void zadanie13(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
+
+
+    }
+
+//    Задание 14
+//Используя метод groupingBy, разделите поток драконов по количеству крыльев, драконы с одинаковым количеством крыльев
+//должны быть упорядочены по количеству голов, имеющих ненулевую огневую мощность.
+private static void zadanie14(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
+
+
 }
+
+}
+
+
+
 
 
 

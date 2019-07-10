@@ -1,4 +1,4 @@
-import java.util.*;
+/* import java.util.*;
 
 
 public static void main(String[]args){
@@ -26,43 +26,43 @@ String obj
 }
 */
 
-"Exception"
-//cheacked
-//                   error  - unchecked
-//        runtime exception  - unchecked
-
-
-        try{
-        PrintWriteer ou = new PrintWriter(new FileWriter("result.txt"));
-        for(int i=0;i<SIZE; i++){
-        out.println("a["i+" ]"+a.get(i));
-        }
-        }
-        catch(IndexOutOfBoundsException e){System.err.println(e);}
-        catch(IOException e){System.err.println(e);}
-
-        finally{
-        if(out!=null){
-        out.close();
-        }
-        else{
-        System.out.println("Файл не был открыт");
-        }
-        }
-
-//                                             Throwable
-//          Error                                                            Exceprtion
-//                                                                               |
-//                                                                            RuntimeException
-
-
-        AutoCloseable
-
-        try(BufferedReader br=new Buffererd(
-        new Filereader(path));
-        ....){
-        return br.readLine();
-        }
+//"Exception"
+////cheacked
+////                   error  - unchecked
+////        runtime exception  - unchecked
+//
+//
+//        try{
+//        PrintWriteer ou = new PrintWriter(new FileWriter("result.txt"));
+//        for(int i=0;i<SIZE; i++){
+//        System out.println("a["i+" ]"+a.get(i));
+//        }
+//        }
+//        catch(IndexOutOfBoundsException e){System.err.println(e);}
+//        catch(IOException e){System.err.println(e);}
+//
+//        finally{
+//        if(out!=null){
+//        out.close();
+//        }
+//        else{
+//        System.out.println("Файл не был открыт");
+//        }
+//        }
+//
+////                                             Throwable
+////          Error                                                            Exceprtion
+////                                                                               |
+////                                                                            RuntimeException
+//
+//
+//        AutoCloseable
+//
+//        try(BufferedReader br=new Buffererd(
+//        new Filereader(path));
+//        ....){
+//        return br.readLine();
+//        }
 
 
 //// Оператор throws
@@ -100,7 +100,7 @@ String obj
 
 
 
-
+//
 
 
 
