@@ -8,7 +8,6 @@ import static com.sun.xml.internal.ws.client.ContentNegotiation.none;
 // для решения задач по СтримАпи
 public class TestclassStreamApi10dgagons {
 
-    private static Object String;
 
     // к заданию № 3
     public static double rnd(int min, int max) {
@@ -372,11 +371,23 @@ items.stream()
     // и тех, у кого суммарная огневая мощность голов больше этого значения.
 
     private static void zadanie12(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
-        int PH = 10;
+        int PH = 3000;
 
+
+        Map<Boolean,List<FirebreathingDragon4LymbdaLymbda>>  result = newDragons.stream().collect(Collectors
+                 .partitioningBy (dragon -> {
+                     return dragon.getFullPower() > PH;}));
+
+        String dragonNamesMinPower = String.join(",", result.get(true).stream().map((dragon) -> dragon + "_1").collect(Collectors.toList()));
+        String dragonNamesMaxPower = String.join(",", result.get(false).stream().map((dragon) -> dragon + "_1").collect(Collectors.toList()));
+
+        System.out.println("Драконы с суммарной огневой мощностью голов не превосходящих некоторого заранее заданного значения PH"
+                + dragonNamesMinPower);
+        System.out.println("Драконы с суммарной огневой мощностью голов превосходящих некоторого заранее заданного значения PH"
+                + dragonNamesMaxPower);
     }
 
- // Задание 13
+    // Задание 13
 // Используя метод groupingBy, разделите поток драконов по количеству голов; драконы с одинаковым количеством голов
 // должны быть упорядочены по количеству крыльев.
     private static void zadanie13(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
@@ -384,13 +395,13 @@ items.stream()
 
     }
 
-//    Задание 14
+    //    Задание 14
 //Используя метод groupingBy, разделите поток драконов по количеству крыльев, драконы с одинаковым количеством крыльев
 //должны быть упорядочены по количеству голов, имеющих ненулевую огневую мощность.
-private static void zadanie14(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
+    private static void zadanie14(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
 
 
-}
+    }
 
 }
 
