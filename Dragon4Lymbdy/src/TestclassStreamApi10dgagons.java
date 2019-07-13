@@ -374,9 +374,10 @@ items.stream()
         int PH = 3000;
 
 
-        Map<Boolean,List<FirebreathingDragon4LymbdaLymbda>>  result = newDragons.stream().collect(Collectors
-                 .partitioningBy (dragon -> {
-                     return dragon.getFullPower() > PH;}));
+        Map<Boolean, List<FirebreathingDragon4LymbdaLymbda>> result = newDragons.stream().collect(Collectors
+                .partitioningBy(dragon -> {
+                    return dragon.getFullPower() > PH;
+                }));
 
         String dragonNamesMinPower = String.join(",", result.get(true).stream().map((dragon) -> dragon + "_1").collect(Collectors.toList()));
         String dragonNamesMaxPower = String.join(",", result.get(false).stream().map((dragon) -> dragon + "_1").collect(Collectors.toList()));
@@ -390,7 +391,35 @@ items.stream()
     // Задание 13
 // Используя метод groupingBy, разделите поток драконов по количеству голов; драконы с одинаковым количеством голов
 // должны быть упорядочены по количеству крыльев.
+
     private static void zadanie13(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
+
+
+        Map<Integer, List<FirebreathingDragon4LymbdaLymbda>> result =
+
+                newDragons.stream()
+                        .sorted((dragon1, dragon2) -> Integer.compare(dragon1.getWings(),dragon2.getWings()))
+                        .collect(Collectors
+                        .groupingBy(dragon -> {
+                            return dragon.getFbHeadsCount() ;
+                        }));
+
+
+        for (Map.Entry<Integer, List<FirebreathingDragon4LymbdaLymbda>> entry : result.entrySet()) {
+            entry.getKey();
+            entry.getValue();
+
+            System.out.println("Тест№13 Количество голов = " + (entry.getKey()));
+
+            List<FirebreathingDragon4LymbdaLymbda> spisokDragons = entry.getValue();
+            String spisokDragonsText = String.join(",", spisokDragons.stream().map((dragon) -> "\n" + dragon).collect(Collectors.toList()));
+            System.out.println("Тест№13 Драконы с одинаковым количеством голов, упорядоченные по количеству крыльев = " + spisokDragonsText);
+        }
+
+
+        // Проверка получившихся новых потоков драконов на одинаковое кол-во голов
+        // Проверка правильности упорядоченности драконов с "одинаковым кол-вом голов",  по количеству крыльев.
+        // (с минимальным кол-вом сверху, и вниз по возрастанию)
 
 
     }
