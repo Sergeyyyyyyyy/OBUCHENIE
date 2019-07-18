@@ -69,6 +69,7 @@ public class TestclassStreamApi10dgagons {
         zadanie12(newDragons);
         zadanie13(newDragons);
         zadanie14(newDragons);
+        zadanie15(newDragons);
         usediskluchenii();
     }
 
@@ -398,11 +399,11 @@ items.stream()
         Map<Integer, List<FirebreathingDragon4LymbdaLymbda>> result =
 
                 newDragons.stream()
-                        .sorted((dragon1, dragon2) -> Integer.compare(dragon1.getWings(),dragon2.getWings()))
+                        .sorted((dragon1, dragon2) -> Integer.compare(dragon1.getWings(), dragon2.getWings()))
                         .collect(Collectors
-                        .groupingBy(dragon -> {
-                            return dragon.getFbHeadsCount() ;
-                        }));
+                                .groupingBy(dragon -> {
+                                    return dragon.getFbHeadsCount();
+                                }));
 
 
         for (Map.Entry<Integer, List<FirebreathingDragon4LymbdaLymbda>> entry : result.entrySet()) {
@@ -417,22 +418,61 @@ items.stream()
         }
 
 
-        // Проверка получившихся новых потоков драконов на одинаковое кол-во голов
-        // Проверка правильности упорядоченности драконов с "одинаковым кол-вом голов",  по количеству крыльев.
-        // (с минимальным кол-вом сверху, и вниз по возрастанию)
-
-
     }
 
     //    Задание 14
 //Используя метод groupingBy, разделите поток драконов по количеству крыльев, драконы с одинаковым количеством крыльев
 //должны быть упорядочены по количеству голов, имеющих ненулевую огневую мощность.
     private static void zadanie14(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
+        Map<Integer, List<FirebreathingDragon4LymbdaLymbda>> result =
+
+                newDragons.stream()
+                        .sorted((dragon1, dragon2) -> Integer.compare(dragon1.getWings(), dragon2.getWings()))
+                        .collect(Collectors
+                                .groupingBy(dragon -> {
+                                    return dragon.getWings();
+                                }));
+
+    }
+    // Задание 15
+    //
+    //A
+    //Используя метод groupingBy, разделите поток драконов по количеству крыльев, драконов с одинаковым количеством крыльев разделите по количеству голов.
+    //
+    //B
+    //Для каждой группы выдайте список драконов с лексикографически максимальным именем.
+    //Желательно попробовать использовать метод collectingAndThen (также желательно попробовать несколько вариантов записи).
+    //
+    //C
+    //Для каждой группы выдайте количество драконов, входящих в неё.
+
+    private static void zadanie15(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
+        Map<Integer, Map<Integer, List<FirebreathingDragon4LymbdaLymbda>>> newDragons2 = new HashMap<>();
 
 
+        Map<Integer, List<FirebreathingDragon4LymbdaLymbda>> result1 =
+
+                newDragons.stream()
+                        .sorted((dragon1, dragon2) -> Integer.compare(dragon1.getWings(), dragon2.getWings()))
+                        .collect(Collectors
+                                .groupingBy(dragon -> {
+                                    return dragon.getWings();
+                                }));
+        result1.forEach((wings, list) -> {
+            Map<Integer, List<FirebreathingDragon4LymbdaLymbda>> spisokDragonspokolvygolov = list.stream()
+                    .collect(Collectors
+                            .groupingBy(dragon -> {
+                                return dragon.getHeads();
+                            }));
+            newDragons2.put(wings, spisokDragonspokolvygolov);
+
+        });
+        System.out.println("Задание 15 Поток драконов по количеству крыльев, драконов с одинаковым количеством крыльев : ");
+        // пока пустоту выводит
     }
 
 }
+
 
 
 
