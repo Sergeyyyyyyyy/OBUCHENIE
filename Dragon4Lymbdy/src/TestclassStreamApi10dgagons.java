@@ -25,16 +25,20 @@ public class TestclassStreamApi10dgagons {
 
         FirebreathingDragon4LymbdaLymbda drag5 = new FirebreathingDragon4LymbdaLymbda(0, 0, 0, 0, 0, 0);
         drag5.setHead(0, 0, 0);
+        drag5.setWings(8);
         drag5.setName("RRRRRR");
         FirebreathingDragon4LymbdaLymbda drag6 = new FirebreathingDragon4LymbdaLymbda(53, 98, 8, 4, 8);
         drag6.setHead(3, 84, 23);
         drag6.setName("RRRRRRr");
+        drag6.setWings(8);
         FirebreathingDragon4LymbdaLymbda drag7 = new FirebreathingDragon4LymbdaLymbda(23, 30, 2, 4, 8);
         drag7.setHead(2, 98, 44);
         drag7.setName("WWW");
+        drag7.setWings(10);
         FirebreathingDragon4LymbdaLymbda drag8 = new FirebreathingDragon4LymbdaLymbda(66, 84, 11, 21, 1);
         drag8.setHead(3, 9, 41);
         drag8.setName("WWW");
+
         FirebreathingDragon4LymbdaLymbda drag9 = new FirebreathingDragon4LymbdaLymbda(21, 28, 77, 88, 99, 14);
         drag9.setHead(4, 37, 27);
         drag9.setName("kkkkkkkkkkk");

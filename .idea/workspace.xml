@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d4678c27-8a0f-449d-a0b5-ad7e94fbe9a0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dragon4Lymbdy/src/TestclassStreamApi10dgagons.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dragon4Lymbdy/src/TestclassStreamApi10dgagons.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/TestclassStreamApi10dgagons.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="469" column="121" selection-start-line="469" selection-start-column="121" selection-end-line="469" selection-end-column="121" />
+            <state relative-caret-position="253">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,10 +34,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/Testclass4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
+            <state relative-caret-position="386">
               <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="27" />
+              <folding>
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson/src/Lekcia090619.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+            <state relative-caret-position="306">
+              <caret line="22" selection-start-line="21" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,23 +82,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson/src/Lekcia160619.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="85">
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3876">
-              <caret line="255" column="13" selection-start-line="255" selection-start-column="13" selection-end-line="255" selection-end-column="13" />
-              <folding>
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,6 +119,8 @@
       <find>heads</find>
       <find>count</find>
       <find>Dragon heads:</find>
+      <find>newDragons2</find>
+      <find>.size</find>
     </findStrings>
     <replaceStrings>
       <replace>FirebreathingDragon4lymbda</replace>
@@ -154,7 +159,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="472" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="823" />
     <option name="height" value="991" />
   </component>
@@ -166,8 +172,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,6 +282,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Lekcia23062019" type="1a9f42e2:ClassTreeNode" />
               <item name="Person" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
+              <item name="Seabattle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
+              <item name="Seabattle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
+              <item name="Seabattle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="GameHelper" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
@@ -512,7 +536,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563017404954</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Решение 15 задачи">
+      <created>1563478518432</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1563478518432</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Решение 15 задачи">
+      <created>1563990259100</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1563990259100</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -538,8 +576,8 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.10677382" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34948096" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.1764706" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3183391" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.366782" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32871974" />
@@ -633,16 +671,29 @@
     <MESSAGE value="Можно приступить к решению задания 12 13 14" />
     <MESSAGE value="Решение 12 задачи" />
     <MESSAGE value="Решение 13 задачи" />
-    <option name="LAST_COMMIT_MESSAGE" value="Решение 13 задачи" />
+    <MESSAGE value="Решение 15 задачи" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решение 15 задачи" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Dragon4Lymbdy/src/TestclassStreamApi10dgagons.java</url>
-          <line>327</line>
+          <line>333</line>
           <properties />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Dragon4Lymbdy/src/TestclassStreamApi10dgagons.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Dragon4Lymbdy/src/TestclassStreamApi10dgagons.java</url>
+          <line>478</line>
+          <properties />
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -842,20 +893,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/TestclassStreamApi10dgagons.java">
+    <entry file="file://$PROJECT_DIR$/Seabattle/src/GameHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="469" column="121" selection-start-line="469" selection-start-column="121" selection-end-line="469" selection-end-column="121" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/Testclass4.java">
+    <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/Dragon4lymbda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        <state relative-caret-position="969">
+          <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -871,8 +919,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson/src/Lekcia090619.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+        <state relative-caret-position="306">
+          <caret line="22" selection-start-line="21" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -881,8 +929,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson/src/Lekcia160619.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="85">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/Testclass4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -891,19 +949,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3876">
-          <caret line="255" column="13" selection-start-line="255" selection-start-column="13" selection-end-line="255" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="27" />
           <folding>
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
             <element signature="e#444#445#0" expanded="true" />
             <element signature="e#468#469#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/Dragon4lymbda.java">
+    <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/TestclassStreamApi10dgagons.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+        <state relative-caret-position="253">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

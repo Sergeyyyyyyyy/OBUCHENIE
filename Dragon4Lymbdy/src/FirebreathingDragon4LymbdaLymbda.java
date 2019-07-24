@@ -16,6 +16,10 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
         return wings;
     }
 
+    public void setWings(int wings) {
+        this.wings = wings;
+    }
+
     public double getMinPowerPerHead() {
         return 0;
     }
@@ -181,7 +185,7 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
         return fbheads.get(index);
     }
 
-    public void setHead(int index, double fp, int rt) {
+    public void setHead(int index, double fp, int rt) {           //  установка голов
         fbheads.get(index).setFirePowerConsumer.accept(fp);
         fbheads.get(index).setrechargeTime2.accept(rt);
 
@@ -201,7 +205,7 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
 
     }
 
-    private Function<Integer, List<FBHead>> addRandomFbHeads = (Integer maxKolHeads) -> {
+    private Function<Integer, List<FBHead>> addRandomFbHeads = (Integer maxKolHeads) -> {   //  установка случайных голов
         Random rnd = new Random();
         int kolHeads = rnd.nextInt(maxKolHeads);
         if (kolHeads > 0) {
