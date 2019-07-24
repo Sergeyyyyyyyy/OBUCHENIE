@@ -28,13 +28,13 @@ public class TestclassStreamApi10dgagons {
         drag5.setName("RRRRRR");
         FirebreathingDragon4LymbdaLymbda drag6 = new FirebreathingDragon4LymbdaLymbda(53, 98, 8, 4, 8);
         drag6.setHead(3, 84, 23);
-        drag6.setName("TTTTTTTTTTT");
+        drag6.setName("RRRRRRr");
         FirebreathingDragon4LymbdaLymbda drag7 = new FirebreathingDragon4LymbdaLymbda(23, 30, 2, 4, 8);
         drag7.setHead(2, 98, 44);
         drag7.setName("WWW");
         FirebreathingDragon4LymbdaLymbda drag8 = new FirebreathingDragon4LymbdaLymbda(66, 84, 11, 21, 1);
         drag8.setHead(3, 9, 41);
-        drag8.setName("yyyyyy");
+        drag8.setName("WWW");
         FirebreathingDragon4LymbdaLymbda drag9 = new FirebreathingDragon4LymbdaLymbda(21, 28, 77, 88, 99, 14);
         drag9.setHead(4, 37, 27);
         drag9.setName("kkkkkkkkkkk");
@@ -52,7 +52,7 @@ public class TestclassStreamApi10dgagons {
         drag14.setName("XXXXXXXXXXXXXXXXXPPPPPPPPP");
         FirebreathingDragon4LymbdaLymbda drag15 = new FirebreathingDragon4LymbdaLymbda(44, 20, 87, 6, 4);
         drag15.setHead(3, 41, 54);
-        drag15.setName("POUYTREEWW");
+        drag15.setName("pOUYTREEWW");
 
         List<FirebreathingDragon4LymbdaLymbda> newDragons = Arrays.asList(drag5, drag6, drag7, drag8, drag9, drag10, drag12, drag13, drag14, drag15);
         zadanie1ProverkaDragondsonHeads(newDragons);
@@ -70,6 +70,8 @@ public class TestclassStreamApi10dgagons {
         zadanie13(newDragons);
         zadanie14(newDragons);
         zadanie15(newDragons);
+        zadanie16(newDragons);
+
         usediskluchenii();
     }
 
@@ -467,12 +469,55 @@ items.stream()
             newDragons2.put(wings, spisokDragonspokolvygolov);
 
         });
-        System.out.println("Задание 15 Поток драконов по количеству крыльев, драконов с одинаковым количеством крыльев : ");
-        // пока пустоту выводит
+        newDragons2.forEach((wings, spisokDragonspokolvygolov) -> {
+            spisokDragonspokolvygolov.forEach((heads, dragonList) -> {
+                dragonList.size();
+                System.out.println("Задание №15 Поток драконов по количеству крыльев, драконов с одинаковым количеством крыльев : " + wings);
+                System.out.println("Задание №15 Для каждой группы выдайте количество драконов, входящих в неё : " + dragonList.size() + "");
+            });
+
+        });
+
+
+        //   int i = 1; i < (tmp.size() - 1); i++) {
+        //            System.out.println(tmp.get(i) + " ,getFullPower = " + tmp.get(i).getFullPower() + " ,getPowerPerHead = " + tmp.get(i).getPowerPerHead());
     }
 
-}
+//    Задание № 16 : Исключительные ситуации
+//    Предположим, что нам нужно описывать перемещения нашего дракона с помощью текстовых команд.
+//    Эти команды должны иметь формат символ число
+//    В качестве символа допускается использовать заглавные буквы N (North), S (South), E (East), W (West), числа же
+//    предполагаются положительными и не превосходящими некоторого заранее заданного значения K.
+//
+//    Разработайте описанные ниже классы ИС. Некоторые из этих классов должны быть связаны между собой, ваша задача в
+//    том числе заключается в определении этих связей. Обоснуйте выбор класса-предка для каждой ИС
+//    (рекомендуется попробовать использовать как проверяемые, так и непроверяемые исключения).
+//
+//            1) ИС должна возбуждаться, если в качестве символов используются другие заглавные буквы.
+//            2) ИС должна возбуждаться, если в качестве символов используются маленькие буквы вместо заглавных
+//            (т.е. при преобразовании в заглавные получим правильный формат команды)
+//            3) ИС должна возбуждаться, если ожидалась одна из разрешенных заглавных букв, но встретился другой символ.
+//            4) ИС должна возбуждаться, если записанное число выходит за рамки разрешенного диапазона.
+//            5) ИС должна возбуждаться, если записанное число является нулем
+//            6) ИС должна возбуждаться, если записанное число по абсолютной величине больше, чем заранее заданное значение K.
+//
+//    Напишите код, демонстрирующий использование разработанных вами ИС.
+//
+//    Приветствуется использование Logger для ведения лога происходящего (документация, примеры использования: 1, 2)
+//
+//    Попробуйте также написать "корректирующий" код, исправляющий некоторые ошибки в записи команд (например, строчную букву можно заменить на заглавную; запись вида S -2 можно интерпретировать как N 2; команды, имеющие в качестве числа 0, можно просто удалить).
+//
+//    Способ хранения списка команд — на ваше усмотрение (как вариант — текстовый файл).
+//
+//    Дополнительно: обдумайте и предложите вариант обработки ситуации, когда между символом и числом отсутствует пробел.
 
+    private static void zadanie16(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
+        String iskluchenia = "Isk";
+
+
+
+    }
+}
 
 
 
