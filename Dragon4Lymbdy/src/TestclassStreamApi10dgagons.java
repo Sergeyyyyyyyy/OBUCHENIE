@@ -74,7 +74,7 @@ public class TestclassStreamApi10dgagons {
         zadanie13(newDragons);
         zadanie14(newDragons);
         zadanie15(newDragons);
-        zadanie16(newDragons);
+        zadanie16("NSWE   Nswe  nswe 0 nsw0e -*Wse  -N*/  0SEWN   ");
 
         usediskluchenii();
     }
@@ -515,13 +515,109 @@ items.stream()
 //
 //    Дополнительно: обдумайте и предложите вариант обработки ситуации, когда между символом и числом отсутствует пробел.
 
-    private static void zadanie16(List<FirebreathingDragon4LymbdaLymbda> newDragons) {
-        String iskluchenia = "Isk";
+    private static void zadanie16(String naborbukv, int k) {
+        new CommandParser().test(naborbukv, k);
+    }
 
+    /*
+            void getchar() throws RuntimeException {
+            if (iskluchenia.upper() = char)
+            throw new RuntimeException("1) ИС должна возбуждаться, если в качестве символов используются другие заглавные буквы.");
 
-
+            if (iskluchenia.length() < char)
+            throw new RuntimeException("2) ИС должна возбуждаться, если в качестве символов используются маленькие буквы вместо заглавных");
+     */
+    static class DrugieZaglavnyeBukvException extends RuntimeException {
+        public DrugieZaglavnyeBukvException() {
+            super("в качестве символов используются другие заглавные буквы");
+        }
+    }
+    static class DrugieMalenkyeBukvException extends RuntimeException {
+    public DrugieMalenkyeBukvException() {
+        super("в качестве символов используются маленькие буквы вместо заглавных");
     }
 }
+
+    static class DrugoySimvolException extends RuntimeException {
+        public DrugoySimvolException() {
+            super("если ожидалась одна из разрешенных заглавных букв, но встретился другой символ");
+        }
+    }
+    static class ChislovyhoditZaDiapozonException extends RuntimeException {
+        public ChislovyhoditZaDiapozonException() {
+            super("если записанное число выходит за рамки разрешенного диапазона.");
+        }
+    }
+
+    static class ChislovYvlietsException extends RuntimeException {
+        public ChislovYvlietsException() {
+            super("если записанное число является нулем");
+        }
+    }
+
+    static class ChislovAbsolutVelichineException extends RuntimeException {
+        public ChislovAbsolutVelichineException() {
+            super("если записанное число по абсолютной величине больше, чем заранее заданное значение K.");
+        }
+    }
+
+    static class MyException extends RuntimeException {
+    }
+
+    static class CommandParser {
+
+        void test(String ts, int k) {
+
+            for (char c : ts.toCharArray()) {
+                switch (c) {
+                    case 'N':
+                    case 'S':
+                    case 'E':
+                    case 'W':
+                        continue;
+                }
+                try {
+                    if (!Character.isLetterOrDigit(c)) {
+                        // drugoy symbol
+                    }
+
+                    if (!Character.isLetter(c)) {
+                        int i = Integer.valueOf("" + c);
+
+                        // cравнить с "к" и выкинуть остальные исключения
+                        if (int k  > i  ):
+                    } else {
+
+                        if (Character.isUpperCase(c)) {
+                            throw new DrugieZaglavnyeBukvException();
+                        }
+                        if (Character.isLowerCase(c)) {
+                            throw new DrugieMalenkyeBukvException();
+
+                        }
+                    }
+
+
+
+                } catch (Exception ex) {
+                    System.out.println(ex.getLocalizedMessage());
+                }
+            }
+//            try {
+//        Handler h=new FileHandler(" outf.log");
+//        Logger.getlogger ("").addHandler (h);
+//        }
+//        catch (IOException e);
+//  Logger logger  = Logger.getLogger ("package.name");
+//  StackTraceElement [] elements = e.getStackTrace();
+//  for (int i = 0 ; n = elements.length; i<n;i++){
+//      logger.log (Leval.Warning, elements [])
+//        get ...  ();
+//        }
+        }
+    }
+}
+
 
 
 
