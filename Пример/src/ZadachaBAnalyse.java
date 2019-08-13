@@ -4,13 +4,13 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 
-class ZadachaBAnalyse {
+public class ZadachaBAnalyse {
     public static void main(String[] args) {
-        Treners analizTest = new Treners(System.in);
+        Analyse analizTest = new Analyse(System.in);
 
 
-        Analyse analizTest;
-        analizTest = new Analyse(new ByteArrayInputStream((
+//        Analyse analizTest;
+//        analizTest = new Analyse(new ByteArrayInputStream((
            // CASE 1:
 //                "8\n" +
 //                        "3 bread butter milk\n" +

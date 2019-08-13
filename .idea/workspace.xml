@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="d4678c27-8a0f-449d-a0b5-ad7e94fbe9a0" name="Default Changelist" comment="">
-=======
-    <list default="true" id="26779cb0-a2c0-425a-8097-025b93ca8674" name="Default Changelist" comment="Решено задание 6. Не решено еще задание 7">
->>>>>>> Решено задание 9
+      <change afterPath="$PROJECT_DIR$/ПримерОт17.04.2019/src/Bykvi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dragon4Lymbdy/src/TestclassStreamApi10dgagons.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dragon4Lymbdy/src/TestclassStreamApi10dgagons.java" afterDir="false" />
-<<<<<<< HEAD
-=======
-      <change beforePath="$PROJECT_DIR$/Zadachiizkypca/src/Perevod2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Zadachiizkypca/src/Perevod2.java" afterDir="false" />
->>>>>>> Решено задание 9
+      <change beforePath="$PROJECT_DIR$/Пример/src/ZadachaBAnalyse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Пример/src/ZadachaBAnalyse.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="C:\Users\Users\IdeaProjects\OBUCHENIE\.idea\shelf/" />
@@ -26,35 +20,38 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Пример/src/ZadachaBAnalyse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1564475634425" expanded="true" signature="256:345" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+              <folding>
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/TestclassStreamApi10dgagons.java">
+        <entry file="file://$PROJECT_DIR$/ПримерОт17.04.2019/src/Bykvi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="530" column="47" lean-forward="true" selection-start-line="530" selection-start-column="47" selection-end-line="530" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#23853#23854#0" expanded="true" />
-                <element signature="e#23904#23905#0" expanded="true" />
-                <element signature="e#24552#24553#0" expanded="true" />
-                <element signature="e#24805#24806#0" expanded="true" />
-                <element signature="e#25343#25344#0" expanded="true" />
-                <element signature="e#25412#25413#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/Testclass4.java">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="476">
-              <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-=======
-            <state relative-caret-position="880">
-              <caret line="223" lean-forward="true" selection-start-line="223" selection-end-line="223" />
->>>>>>> Решено задание 9
+            <state relative-caret-position="65">
+              <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="26" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,88 +60,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java">
+        <entry file="file://$PROJECT_DIR$/ПримерОт17.04.2019/src/DateCalendar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="27" />
-              <folding>
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson/src/Lekcia07072019generiki.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1598">
-              <caret line="94" column="26" selection-start-line="88" selection-start-column="3" selection-end-line="98" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson/src/Lekcia090619.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="22" selection-start-line="21" selection-end-line="22" />
-=======
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/stream/Stream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="695" column="10" selection-start-line="695" selection-start-column="10" selection-end-line="695" selection-end-column="10" />
->>>>>>> Решено задание 9
-              <folding>
-                <element signature="e#0#51408#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/lesson/src/Lekcia160619.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-=======
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/reflect/GenericDeclaration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="151" column="18" selection-start-line="151" selection-start-column="18" selection-end-line="151" selection-end-column="18" />
->>>>>>> Решено задание 9
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/Dragon4lymbda.java">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="969">
-              <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
-=======
-            <state relative-caret-position="330">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
->>>>>>> Решено задание 9
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="88">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -198,19 +117,11 @@
         <option value="$PROJECT_DIR$/Пример/src/Someclass4.java" />
         <option value="$PROJECT_DIR$/Пример/src/Someclass.java" />
         <option value="$PROJECT_DIR$/Dragon4Lymbdy/src/Dragon4lymbda.java" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/lesson/src/Lekcia07072019generiki.java" />
-=======
-        <option value="$PROJECT_DIR$/lesson/src/Lekcia160619.java" />
-        <option value="$PROJECT_DIR$/lesson/src/MyPairClass.java" />
-        <option value="$PROJECT_DIR$/lesson/src/Zadachaot160619.java" />
-        <option value="$PROJECT_DIR$/lesson/src/Lekcia23062019.java" />
-        <option value="$PROJECT_DIR$/Пример/src/QQQ.java" />
-        <option value="$PROJECT_DIR$/Пример/src/SomeClass111.java" />
-        <option value="$PROJECT_DIR$/Zadachiizkypca/src/Perevod2.java" />
->>>>>>> Решено задание 9
-        <option value="$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java" />
         <option value="$PROJECT_DIR$/Dragon4Lymbdy/src/TestclassStreamApi10dgagons.java" />
+        <option value="$PROJECT_DIR$/Пример/src/ZadachaBAnalyse.java" />
+        <option value="$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java" />
+        <option value="$PROJECT_DIR$/ПримерОт17.04.2019/src/Bykvi.java" />
       </list>
     </option>
   </component>
@@ -228,21 +139,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
-=======
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="OBUCHENIE" type="58d84e3e:PackageViewProjectNode" />
-              <item name="OBUCHENIE" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
->>>>>>> Решено задание 9
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,232 +151,25 @@
             <path>
               <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
               <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Dragon4Lymbdy" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
+              <item name="ПримерОт17.04.2019" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
               <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Dragon4Lymbdy" type="462c0819:PsiDirectoryNode" />
+              <item name="ПримерОт17.04.2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
               <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Dragon4Lymbdy" type="462c0819:PsiDirectoryNode" />
+              <item name="ПримерОт17.04.2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Dragon4lymbda" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Dragon4Lymbdy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FireBreathable" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Dragon4Lymbdy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FirebreathingDragon4LymbdaLymbda" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Dragon4Lymbdy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FirebreathingDragon4LymbdaLymbda" type="1a9f42e2:ClassTreeNode" />
-              <item name="FBHead" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Dragon4Lymbdy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Predicate" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Dragon4Lymbdy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Testclass4" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson" type="462c0819:PsiDirectoryNode" />
-=======
->>>>>>> Решено задание 9
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Dragon4Lymbdy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lekcia090619.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lekcia090619.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-              <item name="Test" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lekcia23062019" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lekcia23062019" type="1a9f42e2:ClassTreeNode" />
-              <item name="Person" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Seabattle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Seabattle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Seabattle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="GameHelper" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Пример" type="462c0819:PsiDirectoryNode" />
-=======
->>>>>>> Решено задание 9
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="Пример" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Stepic_2_2_9" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-              <item name="Object" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
-              <item name="Function" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
-              <item name="Predicate" type="1a9f42e2:ClassTreeNode" />
-=======
-              <item name="Monstre" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OBUCHENIE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OBUCHENIE" type="462c0819:PsiDirectoryNode" />
-              <item name="Monstre" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
->>>>>>> Решено задание 9
+              <item name="Test.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -510,29 +201,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestclassStreamApi10dgagons">
-<<<<<<< HEAD
+  <component name="RunManager" selected="Application.Bykvi">
+    <configuration name="Bykvi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bykvi" />
+      <module name="ПримерОт17.04.2019" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SomeClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SomeClass" />
-      <module name="Пример" />
-=======
-    <configuration name="Lekcia23062019" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lekcia23062019" />
-      <module name="lesson" />
->>>>>>> Решено задание 9
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Someclass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Someclass" />
-      <module name="Пример" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Someclass4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Someclass4" />
       <module name="Пример" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -552,19 +230,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZadachaBAnalyse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ZadachaBAnalyse" />
+      <module name="Пример" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bykvi" />
+        <item itemvalue="Application.ZadachaBAnalyse" />
         <item itemvalue="Application.TestclassStreamApi10dgagons" />
-<<<<<<< HEAD
-=======
-        <item itemvalue="Application.SomeClass111" />
-        <item itemvalue="Application.SomeClass111" />
-        <item itemvalue="Application.Lekcia23062019" />
->>>>>>> Решено задание 9
         <item itemvalue="Application.Testclass4" />
         <item itemvalue="Application.SomeClass" />
-        <item itemvalue="Application.Someclass" />
-        <item itemvalue="Application.Someclass4" />
       </list>
     </recent_temporary>
   </component>
@@ -662,14 +341,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-<<<<<<< HEAD
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.024271844" />
-=======
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22108108" />
->>>>>>> Решено задание 9
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25405404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -678,20 +352,8 @@
       <window_info id="Repositories" order="6" weight="0.32972974" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-<<<<<<< HEAD
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.10611303" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21683967" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.366782" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32871974" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.30219147" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.23298731" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.33102652" />
-=======
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.10677382" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.051664755" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.10677382" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5120551" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -699,8 +361,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.0826636" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.23306544" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32821077" />
->>>>>>> Решено задание 9
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.075112104" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Maven" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -822,9 +483,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dragon4/src/FlyingDragon4Plus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -932,20 +590,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/Predicate.java" />
     <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/Lesson300619.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -981,24 +626,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="true" />
-            <element signature="e#10148#10149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/Function.java" />
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Object.java" />
     <entry file="file://$PROJECT_DIR$/Seabattle/src/GameHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1022,7 +651,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/Testclass4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -1033,15 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-          </folding>
-=======
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/function/DoubleUnaryOperator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -1065,15 +684,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Zadachiizkypca/src/Perevod2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
->>>>>>> Решено задание 9
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson/src/Lekcia07072019generiki.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="1598">
           <caret line="94" column="26" selection-start-line="88" selection-start-column="3" selection-end-line="98" selection-end-column="11" />
         </state>
@@ -1081,9 +691,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson/src/Lekcia090619.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" selection-start-line="21" selection-end-line="22" />
-=======
         <state relative-caret-position="1144">
           <caret line="59" column="2" lean-forward="true" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
           <folding>
@@ -1134,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="695" column="10" selection-start-line="695" selection-start-column="10" selection-end-line="695" selection-end-column="10" />
->>>>>>> Решено задание 9
           <folding>
             <element signature="e#0#51408#0" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -1144,13 +750,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson/src/Lekcia160619.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="357">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-=======
-        <state relative-caret-position="242">
-          <caret line="151" column="18" selection-start-line="151" selection-start-column="18" selection-end-line="151" selection-end-column="18" />
->>>>>>> Решено задание 9
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1159,13 +760,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/Dragon4lymbda.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="969">
           <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
-=======
-        <state relative-caret-position="880">
-          <caret line="223" lean-forward="true" selection-start-line="223" selection-end-line="223" />
->>>>>>> Решено задание 9
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1784">
+          <caret line="706" selection-start-line="706" selection-end-line="706" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Пример/src/ZadachaBAnalyse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1564475634425" expanded="true" signature="256:345" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dragon4Lymbdy/src/FirebreathingDragon4LymbdaLymbda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding>
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ПримерОт17.04.2019/src/DateCalendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ПримерОт17.04.2019/src/Bykvi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="26" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

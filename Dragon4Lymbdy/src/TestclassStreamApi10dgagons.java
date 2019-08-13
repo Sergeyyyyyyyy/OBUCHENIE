@@ -74,7 +74,7 @@ public class TestclassStreamApi10dgagons {
         zadanie13(newDragons);
         zadanie14(newDragons);
         zadanie15(newDragons);
-        zadanie16("NSWE   Nswe  nswe 0 nsw0e -*Wse  -N*/  0SEWN   ");
+  //      zadanie16("NSWE   Nswe  nswe 0 nsw0e -*Wse  -N*/  0SEWN   ");
 
         usediskluchenii();
     }
@@ -290,15 +290,14 @@ public class TestclassStreamApi10dgagons {
         FirebreathingDragon4LymbdaLymbda result = newDragons.stream().reduce(newDragons.get(0),
                 (prevDragon, nextDragon) -> {
                     double delta1 = prevDragon.getMaxPowerPerHead() - prevDragon.getMinPowerPerHead();
-                    double delta2 = nextDragon.getMaxPowerPerHead() - nextDragon.getMinPowerPerHead();
-                    return delta2 < delta1 ? nextDragon : prevDragon;
-                }, (resDragon, dragon) -> {
-                    double delta1 = resDragon.getMaxPowerPerHead() - resDragon.getMinPowerPerHead();
-                    double delta2 = dragon.getMaxPowerPerHead() - dragon.getMinPowerPerHead();
-                    return delta2 < delta1 ? dragon : resDragon;
+      //              double delta2 = nextDragon.getMaxPowerPerHead() - nextDragon.getMinPowerPerHead();
+//                    return delta2 < delta1 ? nextDragon : prevDragon;
+//                }, (resDragon, dragon) -> {
+//                    double delta1 = resDragon.getMaxPowerPerHead() - resDragon.getMinPowerPerHead();
+//                    double delta2 = dragon.getMaxPowerPerHead() - dragon.getMinPowerPerHead();
+//                    return delta2 < delta1 ? dragon : resDragon;
                 });
-
-        System.out.println("Дракон с минимальной разницей мощности: " + result.getName());
+//        System.out.println("Дракон с минимальной разницей мощности: " + result.getName());
     }
 
 
@@ -585,7 +584,7 @@ items.stream()
                         int i = Integer.valueOf("" + c);
 
                         // cравнить с "к" и выкинуть остальные исключения
-                        if (int k  > i  ):
+           //             if (int k  > i  ):
                     } else {
 
                         if (Character.isUpperCase(c)) {

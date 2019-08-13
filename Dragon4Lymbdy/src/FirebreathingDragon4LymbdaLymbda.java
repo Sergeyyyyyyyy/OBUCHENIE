@@ -3,8 +3,6 @@ import java.util.function.Consumer;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
-import static java.util.function.Function.identity;
-
 // для задачи №5
 public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements Flyable, FireBreathable {
 
@@ -172,7 +170,7 @@ public class FirebreathingDragon4LymbdaLymbda extends Dragon4lymbda implements F
 
     }
 
-    public double getMinPowerPerHead() {
+     private double getMinPowerPerHead() {
         double minHeadpower = 0;
         for (FBHead fbh : fbheads) {
             minHeadpower = Math.min(minHeadpower,fbh.firePower);
